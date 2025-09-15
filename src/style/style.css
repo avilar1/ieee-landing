@@ -1,5 +1,67 @@
-@import url('reset.css');
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
 
-body {
-    color: red;
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.top-section-container {
+  background:
+    url('../assets/img/fundoRio_otm-50.svg') no-repeat center bottom / cover,
+    /* svg */
+      linear-gradient(
+        90deg,
+        rgba(141, 156, 198, 1) 0%,
+        rgba(167, 192, 182, 1) 50%,
+        rgba(183, 163, 145, 1) 100%
+      );
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.top-section-container h1,
+.top-section-container p {
+  --tw-drop-shadow-size: drop-shadow(0 4px 4px var(--tw-drop-shadow-color, #00000026));
+  --tw-drop-shadow: drop-shadow(var(--drop-shadow-lg));
+  filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,)
+    var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,)
+    var(--tw-drop-shadow,);
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.subs {
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+h1,
+.subs {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: var(--text-white);
+}
+
+.sub-titulo {
+  color: var(--color-yellow-300);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.subs-var {
+  color: var(--color-green-300);
+  font-size: 18px;
+}
+
+.textos-topo {
+  margin-bottom: 4rem;
 }

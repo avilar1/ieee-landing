@@ -53,16 +53,61 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <div class="grid grid-cols-4 gap-4 max-w-lg mx-auto">
-        <div v-for="({ key, label }) in units" :key="key" class="text-center">
-            <div class="bg-white/20 backdrop-blur-sm rounded-lg p-4 mb-2">
-                <div class="text-3xl font-bold text-white">
-                    {{ String(timeLeft[key as keyof typeof timeLeft]).padStart(2, "0") }}
-                </div>
+    <div class="countdown">
+        <div v-for="({ key, label }) in units" :key="key" class="countdown-item">
+            <div class="countdown-value">
+                {{ String(timeLeft[key as keyof typeof timeLeft]).padStart(2, "0") }}
             </div>
-            <div class="text-sm text-white/80 uppercase tracking-wider">
-                {{ label }}
-            </div>
+            <div class="countdown-label">{{ label }}</div>
         </div>
     </div>
 </template>
+
+<style scoped>
+/* GLASS GERAL */
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media (min-width: 640px) {
+    .countdown {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* ITEM */
+.countdown-item {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 1rem 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* VALOR */
+.countdown-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.25rem;
+}
+
+/* LABEL */
+.countdown-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.85);
+}
+</style>

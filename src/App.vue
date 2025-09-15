@@ -15,15 +15,16 @@ import TeamCarousel from "./components/Carrossel.vue"
     </nav>
   </header>
   <main>
-    <section>
+    <section id="top-section" class="top-section-container">
 
-      <h1>IEEE IES</h1>
-      <p>STUDENT AND YOUNG PROFESSIONAL CONGRESS</p>
-      <p>3ª EDIÇÃO</p>
-      <p>Inovações Futuras, Fundações Sólidas</p>
-      <p>Rio de Janeiro, Brasil</p>
-      <p>15 - 17 Agosto 2026</p>
-
+      <div class="textos-topo">
+        <h1>IEEE IES</h1>
+        <p class="subs">STUDENT AND YOUNG PROFESSIONAL CONGRESS</p>
+        <p class="sub-titulo">3ª EDIÇÃO</p>
+        <p class="subs">Inovações Futuras, Fundações Sólidas</p>
+        <p class="subs-var">Rio de Janeiro, Brasil</p>
+        <p class="sub-titulo">15 - 17 Agosto 2026</p>
+      </div>
 
       <Contador />
 
@@ -33,6 +34,7 @@ import TeamCarousel from "./components/Carrossel.vue"
       </div>
 
     </section>
+    
     <section>
       <div>
         <h2>Organizado por</h2>
