@@ -28,8 +28,8 @@ import TeamCarousel from './components/Carrossel.vue'
       <Contador />
 
       <div>
-        <button>Inscrições Abertas</button>
-        <button>Saiba Mais</button>
+        <button class="btn btn-v">Inscrições Abertas</button>
+        <button class="btn btn-w">Saiba Mais</button>
       </div>
     </section>
 
@@ -46,10 +46,7 @@ import TeamCarousel from './components/Carrossel.vue'
         </li>
         <li>
           <div>
-            <img
-              src="@/assets/img/IEEE_ATH.png"
-              alt="logo da IEEE, Advancing Technology for Humanity"
-            />
+            <img src="@/assets/img/IEEE_ATH.png" alt="logo da IEEE, Advancing Technology for Humanity" />
           </div>
         </li>
       </ul>
@@ -67,7 +64,7 @@ import TeamCarousel from './components/Carrossel.vue'
           </div>
 
           <article>
-            <h4>IES SYP Congress</h4>
+            <h4 class="titulos t-g">IES SYP Congress</h4>
             <p style="margin-bottom: 1rem">
               O IES Student and Young Professional Congress é uma reunião internacional de destaque
               que une estudantes, jovens profissionais, acadêmicos e líderes da indústria para uma
@@ -85,7 +82,7 @@ import TeamCarousel from './components/Carrossel.vue'
 
         <div class="conjunto-texto-img">
           <article>
-            <h4>Industrial Electronics Society</h4>
+            <h4 class="titulos t-g">Industrial Electronics Society</h4>
             <p>
               A Industrial Electronics Society (IES) é uma organização profissional dentro do IEEE
               que se concentra na aplicação de eletrônicos, controles, comunicações, instrumentação
@@ -96,10 +93,12 @@ import TeamCarousel from './components/Carrossel.vue'
               sociedade visa promover inovação, apoiar desenvolvimento de carreira e promover
               compartilhamento de conhecimento para o benefício da indústria e da humanidade.
             </p>
-            <button>Saiba mais sobre a Industrial Electronics Society</button>
+            <button class="btn btn-v">Saiba mais sobre a Industrial Electronics Society</button>
           </article>
 
-          <img src="" alt="" />
+          <img
+            src="https://images.unsplash.com/photo-1621698831414-dcff11e9f51f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxCcmF6aWwlMjBtb2Rlcm4lMjBhcmNoaXRlY3R1cmUlMjBCcmFzaWxpYXxlbnwxfHx8fDE3NTc1MDg0Mjl8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080&amp;utm_source=figma&amp;utm_medium=referral"
+            alt="passaro olhando um lago" />
         </div>
 
         <div class="conjunto-texto-img">
@@ -110,7 +109,7 @@ import TeamCarousel from './components/Carrossel.vue'
           </div>
 
           <article>
-            <h4>Brazil Section</h4>
+            <h4 class="titulos t-a">Brazil Section</h4>
             <p>
               Fundada em 1985, a IEEE Brazil Section é dedicada a espalhar iniciativas IEEE por todo
               o Brasil. Isso é alcançado através de programas educacionais e técnicos, oportunidades
@@ -143,19 +142,9 @@ import TeamCarousel from './components/Carrossel.vue'
       <div class="cards-ev-container">
         <article class="card-ev">
           <div class="card-ev-icon-div">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-calendar w-8 h-8 text-white"
-              aria-hidden="true"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-calendar w-8 h-8 text-white" aria-hidden="true">
               <path d="M8 2v4"></path>
               <path d="M16 2v4"></path>
               <rect width="18" height="18" x="3" y="4" rx="2"></rect>
@@ -168,22 +157,12 @@ import TeamCarousel from './components/Carrossel.vue'
 
         <article class="card-ev">
           <div class="card-ev-icon-div">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-map-pin w-8 h-8 text-white"
-              aria-hidden="true"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-map-pin w-8 h-8 text-white" aria-hidden="true">
               <path
-                d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
-              ></path>
+                d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+              </path>
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
           </div>
@@ -193,19 +172,9 @@ import TeamCarousel from './components/Carrossel.vue'
 
         <article class="card-ev">
           <div class="card-ev-icon-div">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-users w-8 h-8 text-white"
-              aria-hidden="true"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-users w-8 h-8 text-white" aria-hidden="true">
               <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
               <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
               <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
@@ -218,22 +187,12 @@ import TeamCarousel from './components/Carrossel.vue'
 
         <article class="card-ev">
           <div class="card-ev-icon-div">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-lightbulb w-8 h-8 text-white"
-              aria-hidden="true"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-lightbulb w-8 h-8 text-white" aria-hidden="true">
               <path
-                d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"
-              ></path>
+                d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5">
+              </path>
               <path d="M9 18h6"></path>
               <path d="M10 22h4"></path>
             </svg>
@@ -244,22 +203,12 @@ import TeamCarousel from './components/Carrossel.vue'
 
         <article class="card-ev">
           <div class="card-ev-icon-div">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-award w-8 h-8 text-white"
-              aria-hidden="true"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-award w-8 h-8 text-white" aria-hidden="true">
               <path
-                d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
-              ></path>
+                d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+              </path>
               <circle cx="12" cy="8" r="6"></circle>
             </svg>
           </div>
@@ -269,19 +218,9 @@ import TeamCarousel from './components/Carrossel.vue'
 
         <article class="card-ev">
           <div class="card-ev-icon-div">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-globe w-8 h-8 text-white"
-              aria-hidden="true"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-globe w-8 h-8 text-white" aria-hidden="true">
               <circle cx="12" cy="12" r="10"></circle>
               <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
               <path d="M2 12h20"></path>
@@ -294,33 +233,33 @@ import TeamCarousel from './components/Carrossel.vue'
 
       <div class="detalhes-final-container">
         <article>
-          <h3>Por que Brasil em 2026?</h3>
+          <h3 class="titulos t-a">Por que Brasil em 2026?</h3>
           <ul>
             <li>
-              <span>Hub de Inovação:</span> O Brasil emergiu como um centro de inovação tecnológica
-              na América Latina, com forte investimento em pesquisa e desenvolvimento industrial.
+              <span>Hub de Inovação:</span> O Brasil emergiu como um centro de inovação tecnológica na América Latina,
+              com forte investimento em pesquisa e desenvolvimento industrial.
             </li>
             <li>
-              <span>Diversidade Acadêmica:</span> Universidades brasileiras de renome mundial como
-              USP, UNICAMP e ITA lideram pesquisas em eletrônica industrial.
+              <span>Diversidade Acadêmica:</span> Universidades brasileiras de renome mundial como USP, UNICAMP e ITA
+              lideram pesquisas em eletrônica industrial.
             </li>
             <li>
-              <span>Parcerias Industriais:</span> Colaborações com empresas como Embraer, Petrobras
-              e Vale oferecem perspectivas únicas sobre aplicações industriais.
+              <span>Parcerias Industriais:</span> Colaborações com empresas como Embraer, Petrobras e Vale oferecem
+              perspectivas únicas sobre aplicações industriais.
             </li>
             <li>
-              <span>Experiência Cultural:</span> Mergulhe na rica cultura brasileira, conhecida pela
-              hospitalidade, diversidade e espírito inovador.
+              <span>Experiência Cultural:</span> Mergulhe na rica cultura brasileira, conhecida pela hospitalidade,
+              diversidade e espírito inovador.
             </li>
           </ul>
         </article>
 
         <article>
           <span>2026</span>
-          <h3>Junte-se a Nós!</h3>
+          <h3 class="titulos t-g">Junte-se a Nós!</h3>
           <p>
-            Seja parte da terceira edição do IEEE IES SYP Congress e contribua para o futuro da
-            eletrônica industrial. Inscrições abertas para:
+            Seja parte da terceira edição do IEEE IES SYP Congress e contribua para o futuro da eletrônica industrial.
+            Inscrições abertas para:
           </p>
           <ul>
             <li>Estudantes de graduação e pós-graduação</li>
@@ -332,8 +271,8 @@ import TeamCarousel from './components/Carrossel.vue'
       </div>
     </section>
 
-    <section>
-      <h2>Keynote Speakers</h2>
+    <section class="keynote-speakers">
+      <h2 class="titulos t-g">Keynote Speakers</h2>
       <p>
         Conheça os especialistas renomados que compartilharão seus conhecimentos e experiências no
         IEEE IES SYP Congress 2026
@@ -344,12 +283,14 @@ import TeamCarousel from './components/Carrossel.vue'
       </div>
     </section>
 
-    <section>
-      <h2>Organizing Committee</h2>
-      <p>
-        Conheça a equipe dedicada que está trabalhando para tornar o IEEE IES SYP Congress 2026 uma
-        experiência excepcional
-      </p>
+    <section class="organizing-committee">
+      <div>
+        <h2 class="titulos t-a">Organizing Committee</h2>
+        <p>
+          Conheça a equipe dedicada que está trabalhando para tornar o IEEE IES SYP Congress 2026 uma
+          experiência excepcional
+        </p>
+      </div>
 
       <div>
         <TeamCarousel />
