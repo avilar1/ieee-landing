@@ -1,17 +1,27 @@
 <script setup lang="ts">
 import Contador from './components/Contador.vue'
 import TeamCarousel from './components/Carrossel.vue'
+
+
+import { ref } from 'vue'
+const menuAberto = ref(false)
+const alternarMenu = () => { menuAberto.value = !menuAberto.value }
 </script>
 
 <template>
   <header>
     <nav>
-      <ul>
+      <button class="burguer" @click="alternarMenu"></button>
+      <ul :class="{ aberto: menuAberto }">
         <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">Sobre nós</a></li>
+        <li><a href="#services">Programa</a></li>
+        <li><a href="#contact">Local</a></li>
+        <li><a href="#patrocinadores">Patrocinadores</a></li>
+        <li><a href="#bolsaviagem">Bolsas de Viagem</a></li>
+        <li><a href="#applyfor2027">Candidatar-se para ser anfitrião em 2027</a></li>
       </ul>
+      <button class="btn btn-v"><span>Inscreva-se</span></button>
     </nav>
   </header>
   <main>
@@ -27,7 +37,7 @@ import TeamCarousel from './components/Carrossel.vue'
 
       <Contador />
 
-      <div>
+      <div class="botoes-topo">
         <button class="btn btn-v">Inscrições Abertas</button>
         <button class="btn btn-w">Saiba Mais</button>
       </div>
