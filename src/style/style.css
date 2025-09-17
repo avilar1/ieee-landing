@@ -73,6 +73,7 @@ nav .burguer {
     top: 3rem;
     left: 0;
     width: 100vw;
+    height: 100vh;
     background: #fff;
     flex-direction: column;
     gap: 0;
@@ -84,14 +85,15 @@ nav .burguer {
   nav ul.aberto {
     background: rgba(255, 255, 255, 1);
     opacity: 1;
-  }
-  nav ul.aberto {
     display: flex;
+    justify-content: flex-start;
   }
+
   nav ul li {
     width: 100%;
     text-align: center;
     margin: 1rem 0;
+    text-align: start;
   }
 
   nav .btn {
@@ -212,7 +214,7 @@ h2 {
 }
 
 .apresentacao {
-  margin: 3rem 0;
+  margin: 2rem 0 0;
   padding: 1rem;
   max-width: 80rem;
   text-align: center;
@@ -293,8 +295,8 @@ h2 {
 }
 
 .sobre-evento {
-  padding: 4rem 2rem;
-  margin-bottom: 8rem;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
   /* background-color: var(--color-gray-100); */
 }
 
@@ -422,7 +424,7 @@ h2 {
 }
 
 .detalhes-evento {
-  padding-top: 3rem;
+  padding-top: 1rem;
   background-image: linear-gradient(
     to right bottom,
     oklch(0.987 0.026 102.212) 0%,
