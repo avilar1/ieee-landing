@@ -288,7 +288,7 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
       </p>
 
       <div>
-        <TeamCarousel />
+        <TeamCarousel data-source="palestrantes" />
       </div>
     </section>
 
@@ -302,7 +302,7 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
       </div>
 
       <div>
-        <TeamCarousel />
+        <TeamCarousel data-source="organizadores" />
       </div>
     </section>
   </main>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Prof. Dr. Antonio Marcelo Oliveira Siqueira",
+    "role": "Keynote Speaker",
+    "affiliation": "UFMG - Federal University of Minas Gerais",
+    "bio": "Expert in power electronics and renewable energy systems",
+    "image": "professorImage",
+    "email": "siqueira@ufmg.br",
+    "linkedin": "#"
+  },
+  {
+    "id": 2,
+    "name": "Prof. Dr. Edison Roberto Cabral da Silva",
+    "role": "Keynote Speaker",
+    "affiliation": "UFPE - Federal University of Pernambuco",
+    "bio": "Specialist in industrial automation and control systems",
+    "image": "professorImage",
+    "email": "edison@ufpe.br",
+    "linkedin": "#"
+  },
+  {
+    "id": 3,
+    "name": "Prof. Dr. Marcelo Godoy Simões",
+    "role": "Keynote Speaker",
+    "affiliation": "Colorado School of Mines - IEEE IES President",
+    "bio": "IEEE Fellow, world authority on renewable energy systems",
+    "image": "professorImage",
+    "email": "msimoes@mines.edu",
+    "linkedin": "#"
+  },
+  {
+    "id": 4,
+    "name": "Prof. Dr. Carlos Henrique Barriquello",
+    "role": "Keynote Speaker",
+    "affiliation": "UFSM - Federal University of Santa Maria",
+    "bio": "Expert in smart grids and power systems",
+    "image": "professorImage",
+    "email": "barriquello@ufsm.br",
+    "linkedin": "#"
+  }
+]

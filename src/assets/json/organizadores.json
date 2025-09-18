@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Prof. Leandro Buss Becker",
+    "role": "Chairperson",
+    "affiliation": "UFSC - Federal University of Santa Catarina",
+    "bio": "25+ years IEEE member, IES Brazilian Committee Chair, co-founder of SBESC conference",
+    "image": "professorImage",
+    "email": "leandro.becker@ufsc.br",
+    "linkedin": "#"
+  },
+  {
+    "id": 2,
+    "name": "Prof. Carlos Eduardo Pantoja",
+    "role": "Head of Program",
+    "affiliation": "CEFET-RJ - Federal Center for Technological Education of Rio de Janeiro",
+    "bio": "Associate professor, PhD in Computer Science, Editor-in-Chief of SBC's REIC journal",
+    "image": "professorImage",
+    "email": "carlos.pantoja@cefet-rj.br",
+    "linkedin": "#"
+  },
+  {
+    "id": 3,
+    "name": "Prof. Fernanda Rosa dos Santos",
+    "role": "Head of Meals and Accommodation",
+    "affiliation": "CEFET-RJ - Federal Center for Technological Education of Rio de Janeiro",
+    "bio": "Faculty member since 2003, MSc in Management, MBA in Events Management at USP",
+    "image": "professorImage",
+    "email": "fernanda.santos@cefet-rj.br",
+    "linkedin": "#"
+  },
+  {
+    "id": 4,
+    "name": "Prof. João Teixeira de Carvalho Neto",
+    "role": "Head of Technical Activities",
+    "affiliation": "IFRN - Federal Institute of Rio Grande do Norte",
+    "bio": "IEEE Senior Member, Co-Chair of IEEE IES Student and Young Professionals Activities Committee",
+    "image": "professorImage",
+    "email": "joao.teixeira@ifrn.edu.br",
+    "linkedin": "#"
+  },
+  {
+    "id": 5,
+    "name": "Prof. Monica Pereira",
+    "role": "Head of Marketing & Social Media",
+    "affiliation": "UFRN - Federal University of Rio Grande do Norte",
+    "bio": "Associate Professor, Chair of Systems-on-Chip Laboratory, 15+ years IEEE member",
+    "image": "professorImage",
+    "email": "monica.pereira@ufrn.br",
+    "linkedin": "#"
+  },
+  {
+    "id": 6,
+    "name": "Fernando Santos Berçot",
+    "role": "Head of Social Activities",
+    "affiliation": "CEFET-RJ - Federal Center for Technological Education of Rio de Janeiro",
+    "bio": "Historian, Head of International Relations Office, UNESCO project coordinator",
+    "image": "professorImage",
+    "email": "fernando.bercot@cefet-rj.br",
+    "linkedin": "#"
+  },
+  {
+    "id": 7,
+    "name": "Janisley Oliveira de Sousa",
+    "role": "Head of Young Professionals",
+    "affiliation": "SIDIA Institute / Samsung Electronics / UFAM",
+    "bio": "Senior Embedded Software Engineer, IEEE Young Professionals Representative for Brazil Council",
+    "image": "professorImage",
+    "email": "janisley.sousa@sidia.com",
+    "linkedin": "#"
+  },
+  {
+    "id": 8,
+    "name": "Prof. Marco Aurélio Wehrmeister",
+    "role": "Head of Sponsorship",
+    "affiliation": "UTFPR - Federal University of Technology Paraná",
+    "bio": "18+ years IEEE member, co-founder of SBESC conference, expert in embedded systems",
+    "image": "professorImage",
+    "email": "marco.wehrmeister@utfpr.edu.br",
+    "linkedin": "#"
+  },
+  {
+    "id": 9,
+    "name": "Thomas Moreira Campello",
+    "role": "Treasurer",
+    "affiliation": "CEFET-RJ - Federal Center for Technological Education of Rio de Janeiro",
+    "bio": "Chair of IEEE PES Chapter Rio de Janeiro Section, 10+ years IEEE member",
+    "image": "professorImage",
+    "email": "thomas.campello@cefet-rj.br",
+    "linkedin": "#"
+  },
+  {
+    "id": 10,
+    "name": "Prof. Diego Cardoso",
+    "role": "Secretary",
+    "affiliation": "CEFET-RJ - Federal Center for Technological Education of Rio de Janeiro",
+    "bio": "PhD in Software Engineering, MBA in Information Security, Cybersecurity specialist",
+    "image": "professorImage",
+    "email": "diego.cardoso@cefet-rj.br",
+    "linkedin": "#"
+  },
+  {
+    "id": 11,
+    "name": "Prof. Vladimir Erthal",
+    "role": "Webmaster",
+    "affiliation": "CEFET-RJ - Federal Center for Technological Education of Rio de Janeiro",
+    "bio": "Master's in Software Engineering, Certified Scrum Master and Product Owner",
+    "image": "professorImage",
+    "email": "vladimir.erthal@cefet-rj.br",
+    "linkedin": "#"
+  }
+]
