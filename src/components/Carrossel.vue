@@ -111,7 +111,7 @@ const scrollNext = () => emblaApi.value?.scrollNext();
         <div style="display:flex;">
           <div v-for="member in teamMembers" :key="member.id" style="width:300px; flex: 0 0 300px; margin:0 12px;">
             <div
-              style="background:#fff; border-radius:16px; box-shadow:0 2px 8px rgba(0,0,0,0.08); padding:16px; text-align:center; display:flex; flex-direction:column; align-items:center;">
+              style="background:rgba(255, 255, 255, 0.5); border-radius:16px; box-shadow:0 2px 8px rgba(0,0,0,0.08); padding:16px; text-align:center; display:flex; flex-direction:column; align-items:center; height: calc(100% - 2.3rem);">
               <img :src="member.image" :alt="member.name"
                 style="width:96px; height:96px; border-radius:50%; object-fit:cover; margin-bottom:12px;" />
               <h3 style="font-size:1rem; font-weight:bold; margin-bottom:4px;">{{ member.name }}</h3>
