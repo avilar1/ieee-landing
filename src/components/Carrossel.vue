@@ -70,41 +70,233 @@ const scrollNext = () => {
 </script>
 
 <template>
-  <section style="width:100%;">
-    <div style="display:flex; align-items:center; justify-content:center; width:100%;">
-      <button @click="scrollPrev"
-        style="margin-right:24px; padding:3px 15px; border-radius:50%; background:#16a34a; color:#fff; border:none; font-size:2rem; box-shadow:0 2px 8px rgba(0,0,0,0.10); cursor:pointer; transition:background 0.2s;">
+  <section class="carousel-section">
+    <div class="carousel-wrapper">
+      <button @click="scrollPrev" class="carousel-btn carousel-btn-prev">
         ‹
       </button>
-      <div ref="emblaRef" style="overflow:hidden; position:relative; max-width: 900px;">
-        <div style="display:flex;">
-          <div v-for="member in teamMembers" :key="member.id" style="width:300px; flex: 0 0 300px; margin:0 12px;">
-            <div
-              style="background:rgba(255, 255, 255, 0.5); border-radius:16px; box-shadow:0 2px 8px rgba(0,0,0,0.08); padding:16px; text-align:center; display:flex; flex-direction:column; align-items:center; height: calc(100% - 2.3rem); min-height: 350px;">
-              <img :src="member.image" :alt="member.name"
-                style="width:96px; height:96px; border-radius:50%; object-fit:cover; margin-bottom:12px;" />
-              <h3 style="font-size:1rem; font-weight:bold; margin-bottom:4px; color:#333;">{{ member.name }}</h3>
-              <p style="font-size:0.9rem; color:#555; margin-bottom:2px; font-weight: 600;">{{ member.role }}</p>
-              <p style="font-size:0.85rem; color:#888; margin-bottom:8px; text-align:center;">{{ member.affiliation }}
-              </p>
-              <p style="font-size:0.8rem; color:#666; margin-bottom:8px; text-align:center; flex-grow: 1;">{{ member.bio
-                }}</p>
-              <div style="display:flex; gap:8px; margin-top:auto;">
-                <a :href="`mailto:${member.email}`" title="Email" style="color:#16a34a; transition: color 0.2s;">
-                  <Mail style="width:18px; height:18px;" />
+      <div ref="emblaRef" class="embla">
+        <div class="embla-container">
+          <div v-for="member in teamMembers" :key="member.id" class="embla-slide">
+            <div class="member-card">
+              <img :src="member.image" :alt="member.name" class="member-image" />
+              <h3 class="member-name">{{ member.name }}</h3>
+              <p class="member-role">{{ member.role }}</p>
+              <p class="member-affiliation">{{ member.affiliation }}</p>
+              <p class="member-bio">{{ member.bio }}</p>
+              <div class="member-links">
+                <a :href="`mailto:${member.email}`" title="Email" class="member-link">
+                  <Mail class="icon" />
                 </a>
-                <a :href="member.linkedin" title="LinkedIn" style="color:#16a34a; transition: color 0.2s;">
-                  <Linkedin style="width:18px; height:18px;" />
+                <a :href="member.linkedin" title="LinkedIn" class="member-link">
+                  <Linkedin class="icon" />
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <button @click="scrollNext"
-        style="margin-left:24px; padding:3px 15px; border-radius:50%; background:#16a34a; color:#fff; border:none; font-size:2rem; box-shadow:0 2px 8px rgba(0,0,0,0.10); cursor:pointer; transition:background 0.2s;">
+      <button @click="scrollNext" class="carousel-btn carousel-btn-next">
         ›
       </button>
     </div>
   </section>
 </template>
+
+<style scoped>
+.carousel-section {
+  width: 100%;
+}
+
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-btn {
+  padding: 3px 15px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.carousel-btn:hover {
+  background: #15803d;
+}
+
+.carousel-btn-prev {
+  margin-right: 24px;
+}
+
+.carousel-btn-next {
+  margin-left: 24px;
+}
+
+.embla {
+  overflow: hidden;
+  position: relative;
+  max-width: 900px;
+}
+
+.embla-container {
+  display: flex;
+}
+
+.embla-slide {
+  width: 300px;
+  flex: 0 0 300px;
+  margin: 0 12px;
+}
+
+.member-card {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100% - 2.3rem);
+  min-height: 350px;
+}
+
+.member-image {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.member-name {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.member-role {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+
+.member-affiliation {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.member-bio {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 8px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.member-links {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.member-link {
+  color: #16a34a;
+  transition: color 0.2s;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .embla-slide {
+    flex: 0 0 280px;
+    margin: 0 8px;
+  }
+
+  .member-card {
+    padding: 12px;
+    height: auto;
+    min-height: 300px;
+  }
+
+  .member-name {
+    font-size: 0.9rem;
+  }
+
+  .member-role {
+    font-size: 0.85rem;
+  }
+
+  .member-affiliation {
+    font-size: 0.8rem;
+  }
+
+  .member-bio {
+    font-size: 0.75rem;
+    -webkit-line-clamp: 3;
+  }
+
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .embla-slide {
+    flex: 0 0 220px;
+  }
+
+  .member-card {
+    padding: 8px;
+    min-height: 250px;
+  }
+
+  .member-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 8px;
+  }
+
+  .member-name {
+    font-size: 0.85rem;
+  }
+
+  .member-role {
+    font-size: 0.75rem;
+  }
+
+  .member-affiliation {
+    font-size: 0.7rem;
+  }
+
+  .member-bio {
+    font-size: 0.65rem;
+    -webkit-line-clamp: 2;
+  }
+
+  .carousel-btn-prev {
+    margin-right: 0.5rem;
+  }
+
+  .carousel-btn-next {
+    margin-left: 0.5rem;
+  }
+}
+</style>
