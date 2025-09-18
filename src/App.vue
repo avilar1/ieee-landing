@@ -76,16 +76,17 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
           <article>
             <h4 class="titulos t-g">IES SYP Congress</h4>
             <p style="margin-bottom: 1rem">
-              O IES Student and Young Professional Congress é uma reunião internacional de destaque
-              que une estudantes, jovens profissionais, acadêmicos e líderes da indústria para uma
-              experiência imersiva de três dias. Este evento multicultural é projetado para promover
-              aprendizado, networking e colaboração através de uma programação dinâmica de palestras
-              principais, workshops práticos, sessões interativas e painéis de especialistas.
+              O IES Student and Young Professional Congress é um evento internacional de prestígio
+              que reúne estudantes, jovens profissionais, acadêmicos e líderes da indústria em uma
+              experiência transformadora de três dias. Este congresso multicultural promove aprendizado,
+              networking e colaboração através de palestras inspiradoras, workshops práticos, sessões
+              interativas e painéis com especialistas renomados da eletrônica industrial.
             </p>
             <p>
-              Cobrindo uma ampla gama de tópicos - incluindo engenharia, tecnologia, liderança e
-              desenvolvimento profissional - o congresso oferece uma plataforma inestimável para
-              intercâmbio de conhecimento, construção de habilidades e crescimento de carreira.
+              O Brasil foi escolhido para sediar a terceira edição devido à sua crescente importância
+              no cenário tecnológico mundial e ao potencial inovador de suas universidades e indústrias.
+              Com foco em automação industrial, IoT e Indústria 4.0, o evento promete ser um marco
+              para o desenvolvimento tecnológico na América Latina.
             </p>
           </article>
         </div>
@@ -94,21 +95,19 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
           <article>
             <h4 class="titulos t-g">Industrial Electronics Society</h4>
             <p>
-              A Industrial Electronics Society (IES) é uma organização profissional dentro do IEEE
-              que se concentra na aplicação de eletrônicos, controles, comunicações, instrumentação
-              e inteligência computacional para sistemas industriais e de manufatura. Ela apoia
-              avanços tecnológicos em áreas como sistemas de controle inteligente, robótica,
-              automação, comunicações industriais, processamento de sinais, sistemas de visão e
-              eletrônica de potência para aprimorar processos industriais e de manufatura. A
-              sociedade visa promover inovação, apoiar desenvolvimento de carreira e promover
-              compartilhamento de conhecimento para o benefício da indústria e da humanidade.
+              A IEEE Industrial Electronics Society (IES) é uma das maiores sociedades técnicas do IEEE,
+              dedicada ao avanço da teoria e aplicação de eletrônica, controles e instrumentação em
+              sistemas industriais e de manufatura. Com mais de 4.000 membros em todo o mundo, a IES
+              promove a excelência em pesquisa, educação e inovação tecnológica industrial, apoiando
+              avanços em áreas como robótica, automação, comunicações industriais, processamento de
+              sinais e eletrônica de potência.
             </p>
             <button class="btn btn-v">Saiba mais sobre a Industrial Electronics Society</button>
           </article>
 
           <img
             src="https://images.unsplash.com/photo-1621698831414-dcff11e9f51f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxCcmF6aWwlMjBtb2Rlcm4lMjBhcmNoaXRlY3R1cmUlMjBCcmFzaWxpYXxlbnwxfHx8fDE3NTc1MDg0Mjl8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080&amp;utm_source=figma&amp;utm_medium=referral"
-            alt="passaro olhando um lago" />
+            alt="tecnologia industrial moderna" />
         </div>
 
         <div class="conjunto-texto-img">
@@ -121,14 +120,12 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
           <article>
             <h4 class="titulos t-a">Brazil Section</h4>
             <p>
-              Fundada em 1985, a IEEE Brazil Section é dedicada a espalhar iniciativas IEEE por todo
-              o Brasil. Isso é alcançado através de programas educacionais e técnicos, oportunidades
-              de networking e desenvolvimento de aplicações de tecnologia e suas aplicações para
-              atender às necessidades humanas, apoiando assim os objetivos da sociedade IEEE. A
-              seção tem mais de 8.000 membros profissionais e estudantes em todo o país. A IEEE
-              Brazil Section promove atividades técnicas e profissionais, conferências, workshops e
-              programas de desenvolvimento que beneficiam seus membros e a comunidade técnica
-              brasileira como um todo.
+              A Seção Brasil do IEEE é uma das mais ativas da América Latina, representando mais de
+              15.000 membros em todo o território nacional. Fundada com o objetivo de disseminar
+              iniciativas IEEE por todo o Brasil, a seção promove programas educacionais e técnicos,
+              oportunidades de networking e desenvolvimento de aplicações tecnológicas. Com forte
+              presença acadêmica e industrial, tem sido fundamental no desenvolvimento tecnológico
+              do país, apoiando pesquisa de ponta e formação de profissionais qualificados.
             </p>
           </article>
         </div>
@@ -139,8 +136,8 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
       <div>
         <h2>IEEE IES SYP Congress 2026</h2>
         <p id="subtitulo-detalhes">
-          Uma experiência única que combina a excelência técnica do IEEE com a calorosa
-          hospitalidade brasileira, criando o ambiente perfeito para inovação e colaboração
+          Uma experiência única que combina a excelência técnica do IEEE com a vibrante cultura
+          brasileira, criando o ambiente ideal para inovação, aprendizado e colaboração internacional
         </p>
         <div class="detalhes-tags-container">
           <span class="detalhes-tags dt1">Inovações Futuras</span>
@@ -161,8 +158,8 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
               <path d="M3 10h18"></path>
             </svg>
           </div>
-          <h4>3 Dias de Imersão</h4>
-          <p>15-17 Agosto 2026, três dias completos de aprendizado, networking e inovação</p>
+          <h4>3 Dias de Imersão Total</h4>
+          <p>15-17 Agosto 2026, três dias intensivos de aprendizado, networking e descobertas tecnológicas</p>
         </article>
 
         <article class="card-ev">
@@ -177,7 +174,7 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
             </svg>
           </div>
           <h4>Rio de Janeiro, Brasil</h4>
-          <p>Na cidade maravilhosa, cercado pela rica cultura e história brasileira</p>
+          <p>Na cidade maravilhosa, combinando tecnologia de ponta com a rica cultura e hospitalidade brasileira</p>
         </article>
 
         <article class="card-ev">
@@ -191,8 +188,8 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
               <circle cx="9" cy="7" r="4"></circle>
             </svg>
           </div>
-          <h4>Networking Global</h4>
-          <p>Conecte-se com mais de 500 estudantes, jovens profissionais e líderes da indústria</p>
+          <h4>Networking Internacional</h4>
+          <p>Conecte-se com mais de 500 participantes de 40 países, incluindo líderes da indústria e pesquisadores</p>
         </article>
 
         <article class="card-ev">
@@ -208,7 +205,7 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
             </svg>
           </div>
           <h4>Inovação Brasileira</h4>
-          <p>Descubra as últimas inovações em tecnologia industrial desenvolvidas no Brasil</p>
+          <p>Descubra as mais recentes inovações em automação industrial e Indústria 4.0 desenvolvidas no Brasil</p>
         </article>
 
         <article class="card-ev">
@@ -222,8 +219,9 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
               <circle cx="12" cy="8" r="6"></circle>
             </svg>
           </div>
-          <h4>Competições</h4>
-          <p>Participe de competições técnicas e apresente seus projetos para especialistas</p>
+          <h4>Competições Técnicas</h4>
+          <p>Participe de desafios inovadores e apresente seus projetos para um painel de especialistas internacionais
+          </p>
         </article>
 
         <article class="card-ev">
@@ -236,8 +234,8 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
               <path d="M2 12h20"></path>
             </svg>
           </div>
-          <h4>Perspectiva Global</h4>
-          <p>Visão internacional sobre os desafios e oportunidades da Indústria 4.0</p>
+          <h4>Visão Global</h4>
+          <p>Perspectivas internacionais sobre os desafios e oportunidades da transformação digital industrial</p>
         </article>
       </div>
 
@@ -246,20 +244,20 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
           <h3 class="titulos t-a">Por que Brasil em 2026?</h3>
           <ul>
             <li>
-              <span>Hub de Inovação:</span> O Brasil emergiu como um centro de inovação tecnológica na América Latina,
-              com forte investimento em pesquisa e desenvolvimento industrial.
+              <span style="font-weight: bold;">Líder em Inovação:</span> O Brasil está emergindo como um centro de
+              inovação tecnológica na América Latina, com um ecossistema vibrante de startups e pesquisa.
             </li>
             <li>
-              <span>Diversidade Acadêmica:</span> Universidades brasileiras de renome mundial como USP, UNICAMP e ITA
-              lideram pesquisas em eletrônica industrial.
+              <span style="font-weight: bold;">Universidades de Renome:</span> O país abriga instituições de ensino
+              superior reconhecidas mundialmente, que promovem pesquisa de ponta e desenvolvimento tecnológico.
             </li>
             <li>
-              <span>Parcerias Industriais:</span> Colaborações com empresas como Embraer, Petrobras e Vale oferecem
-              perspectivas únicas sobre aplicações industriais.
+              <span style="font-weight: bold;">Crescimento em Automação:</span> O setor industrial brasileiro está
+              passando por uma transformação digital, com investimentos significativos em automação e Indústria 4.0.
             </li>
             <li>
-              <span>Experiência Cultural:</span> Mergulhe na rica cultura brasileira, conhecida pela hospitalidade,
-              diversidade e espírito inovador.
+              <span style="font-weight: bold;">Cultura e Hospitalidade:</span> O Brasil é conhecido por sua rica cultura
+              e hospitalidade, proporcionando um ambiente acolhedor para networking e colaboração internacional.
             </li>
           </ul>
         </article>
@@ -268,7 +266,7 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
           <span>2026</span>
           <h3 class="titulos t-g">Junte-se a Nós!</h3>
           <p>
-            Seja parte da terceira edição do IEEE IES SYP Congress e contribua para o futuro da eletrônica industrial.
+            Seja parte da terceira edição do IEEE IES SYP Congress e ajude a moldar o futuro da eletrônica industrial.
             Inscrições abertas para:
           </p>
           <ul>
@@ -284,8 +282,8 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
     <section class="keynote-speakers">
       <h2 class="titulos t-g">Keynote Speakers</h2>
       <p>
-        Conheça os especialistas renomados que compartilharão seus conhecimentos e experiências no
-        IEEE IES SYP Congress 2026
+        Conheça os especialistas de renome internacional que compartilharão suas visões e experiências
+        sobre o futuro da eletrônica industrial no IEEE IES SYP Congress 2026
       </p>
 
       <div>
@@ -297,8 +295,8 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
       <div>
         <h2 class="titulos t-a">Organizing Committee</h2>
         <p>
-          Conheça a equipe dedicada que está trabalhando para tornar o IEEE IES SYP Congress 2026 uma
-          experiência excepcional
+          Conheça a equipe multidisciplinar de especialistas que está dedicada a tornar o IEEE IES SYP Congress 2026
+          uma experiência transformadora e inesquecível
         </p>
       </div>
 
@@ -317,9 +315,9 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
     </div>
     <div>
       <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
+      <a href="#about">Sobre</a>
+      <a href="#services">Programa</a>
+      <a href="#contact">Contato</a>
     </div>
   </footer>
 </template>

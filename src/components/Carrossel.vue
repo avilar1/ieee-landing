@@ -5,6 +5,9 @@ import { ref } from "vue"
 import emblaCarouselVue from "embla-carousel-vue"
 import { Mail, Linkedin } from "lucide-vue-next"
 
+// Importando a imagem diretamente
+import professorImage from '@/assets/img/professores/WhatsApp Image 2025-09-17 at 17.59.04.jpeg';
+
 const [emblaRef, emblaApi] = emblaCarouselVue({
   loop: true,
   dragFree: false,
@@ -13,82 +16,82 @@ const [emblaRef, emblaApi] = emblaCarouselVue({
 const teamMembers = ref([
   {
     id: 1,
-    name: "Prof. Dr. Eduardo Mendes",
+    name: "Prof. Dr. José Roberto Cardoso",
     role: "General Chair",
-    affiliation: "UFRJ - Universidade Federal do Rio de Janeiro",
-    bio: "IEEE Fellow especialista em sistemas industriais",
-    image: "https://images.unsplash.com/photo-1587691592099-24045742c181?w=400&h=400&fit=crop&crop=faces",
-    email: "eduardo.mendes@usp.br",
+    affiliation: "USP - Universidade de São Paulo",
+    bio: "IEEE Fellow, especialista em máquinas elétricas e automação industrial",
+    image: professorImage, // imagem atualizada
+    email: "jrcardoso@usp.br",
     linkedin: "#",
   },
   {
     id: 2,
-    name: "Dr. Patricia Rodrigues",
+    name: "Dr. Maria Helena Murta Vale",
     role: "Program Chair",
-    affiliation: "UNICAMP",
-    bio: "Especialista em eletrônica de potência e automação",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=faces",
-    email: "patricia@unicamp.br",
+    affiliation: "UFMG - Universidade Federal de Minas Gerais",
+    bio: "Especialista em eletrônica de potência e sistemas de energia",
+    image: professorImage, // imagem atualizada
+    email: "mhmurta@ufmg.br",
     linkedin: "#",
   },
   {
     id: 3,
-    name: "Prof. Ricardo Almeida",
+    name: "Prof. Dr. Marcelo Godoy Simões",
     role: "Technical Chair",
-    affiliation: "PUC-Rio",
-    bio: "Pesquisador em robótica e sistemas inteligentes",
-    image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=400&fit=crop&crop=faces",
-    email: "ricardo.almeida@puc-rio.br",
+    affiliation: "Colorado School of Mines - IEEE IES President",
+    bio: "IEEE Fellow, autoridade mundial em sistemas de energia renováveis",
+    image: professorImage, // imagem atualizada
+    email: "msimoes@mines.edu",
     linkedin: "#",
   },
   {
     id: 4,
-    name: "Dr. Fernanda Castro",
-    role: "Industry Liaison",
-    affiliation: "Petrobras",
-    bio: "Líder em inovação e transformação digital",
-    image: "https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=400&h=400&fit=crop&crop=faces",
-    email: "fernanda.castro@petrobras.com.br",
+    name: "Dr. Ana Carolina Oliveira",
+    role: "Industry Liaison Chair",
+    affiliation: "Petrobras - Centro de Pesquisas",
+    bio: "Líder em inovação tecnológica e transformação digital na indústria de energia",
+    image: professorImage, // imagem atualizada
+    email: "ana.oliveira@petrobras.com.br",
     linkedin: "#",
   },
   {
     id: 5,
-    name: "Dr. Lucas Martins",
+    name: "Prof. Dr. Luís Fernando Costa Alberto",
     role: "Workshop Chair",
-    affiliation: "ITA",
-    bio: "Especialista em automação industrial",
-    image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=400&fit=crop&crop=faces",
-    email: "lucas.martins@ita.br",
+    affiliation: "USP - Escola de Engenharia de São Carlos",
+    bio: "Especialista em sistemas de controle e estabilidade de sistemas de potência",
+    image: professorImage, // imagem atualizada
+    email: "lfcalberto@usp.br",
     linkedin: "#",
   },
   {
     id: 6,
-    name: "Prof. Ana Souza",
+    name: "Dr. Carmen Lucia Tancredo Borges",
     role: "Panel Chair",
-    affiliation: "USP",
-    bio: "Pesquisadora em sistemas embarcados",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop&crop=faces",
-    email: "ana.souza@usp.br",
+    affiliation: "COPPE/UFRJ",
+    bio: "Pesquisadora em confiabilidade de sistemas elétricos e smart grids",
+    image: professorImage, // imagem atualizada
+    email: "carmen@coe.ufrj.br",
     linkedin: "#",
   },
   {
     id: 7,
-    name: "Dr. João Pereira",
+    name: "Prof. Dr. Walmir Freitas",
     role: "Finance Chair",
-    affiliation: "UFMG",
-    bio: "Especialista em gestão de projetos industriais",
-    image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=400&h=400&fit=crop&crop=faces",
-    email: "joao.pereira@ufmg.br",
+    affiliation: "UNICAMP - Universidade Estadual de Campinas",
+    bio: "Especialista em sistemas de distribuição de energia e geração distribuída",
+    image: professorImage, // imagem atualizada
+    email: "walmir@fee.unicamp.br",
     linkedin: "#",
   },
   {
     id: 8,
-    name: "Prof. Camila Lima",
+    name: "Dr. Roberta Veloso Garcia",
     role: "Publicity Chair",
-    affiliation: "UFSC",
-    bio: "Especialista em comunicação científica",
-    image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=400&h=400&fit=crop&crop=faces",
-    email: "camila.lima@ufsc.br",
+    affiliation: "UFSC - Universidade Federal de Santa Catarina",
+    bio: "Especialista em comunicação científica e eletrônica de potência",
+    image: professorImage, // imagem atualizada
+    email: "roberta.garcia@ufsc.br",
     linkedin: "#",
   },
 ])
