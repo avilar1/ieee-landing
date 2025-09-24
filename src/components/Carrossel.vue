@@ -249,6 +249,7 @@ const scrollNext = () => {
   .member-bio {
     font-size: 0.75rem;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
   }
 
   .carousel-btn {
@@ -289,6 +290,7 @@ const scrollNext = () => {
   .member-bio {
     font-size: 0.65rem;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
   }
 
   .carousel-btn-prev {

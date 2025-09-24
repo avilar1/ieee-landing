@@ -21,14 +21,46 @@ nav ul {
   max-width: max-content;
 }
 
-nav ul li a {
+nav ul li a,
+nav ul li span {
   text-decoration: none;
   color: var(--text-color);
   font-weight: 500;
+  cursor: pointer;
 }
 nav ul li:hover {
   transform: scale(1.1);
   transition: transform 0.2s;
+}
+
+ul li {
+  position: relative;
+}
+
+ul li ul {
+  display: none;
+  position: absolute;
+  /* left: 0; */
+  /* top: 100%; */
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 10;
+  width: max-content;
+  padding: 1rem 1rem 0;
+}
+
+ul li > ul {
+  display: block;
+}
+
+.seta {
+  display: inline-block ;
+  margin-left: 5px;
+  font-size: 0.8em;
+  transition: transform 0.3s;
+}
+
+.seta-aberta {
+  transform: rotate(180deg);
 }
 
 nav .btn {
@@ -83,8 +115,6 @@ nav .burguer {
     opacity: 1;
   }
   nav ul.aberto {
-    background: rgba(255, 255, 255, 1);
-    opacity: 1;
     display: flex;
     justify-content: flex-start;
   }
@@ -102,6 +132,15 @@ nav .burguer {
 
   .top-section-container {
     margin-top: 1rem;
+  }
+
+  nav ul li ul {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    padding: 0.5rem;
+    height: auto;
   }
 }
 
@@ -760,4 +799,49 @@ footer div:nth-child(2) a {
   color: var(--text-white);
   text-shadow: 0 2px 8px #0008;
   font-weight: bold;
+}
+
+
+.program-header {
+  padding: 2rem;
+  text-align: center;
+}
+
+.sub-nav {
+  top: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  z-index: 1;
+}
+
+.sub-nav a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.sub-nav a.router-link-active {
+  background-color: #007bff;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .sub-nav {
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+  }
+}
+
+
+.section-program {
+  background-image: linear-gradient(to right bottom,
+      var(--color-green-50) 0%,
+      var(--color-yellow-50) 100%);
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
 }
