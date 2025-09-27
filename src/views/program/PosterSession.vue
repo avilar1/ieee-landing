@@ -285,11 +285,7 @@
   margin-top: 10rem;
 }
 
-.titulos-poster-marcacao {
-  text-align: center;
-  font-size: 48px;
-  font-weight: 700;
-}
+
 
 .poster-cardzao {
   border: none;

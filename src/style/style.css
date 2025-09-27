@@ -53,7 +53,7 @@ ul li > ul {
 }
 
 .seta {
-  display: inline-block ;
+  display: inline-block;
   margin-left: 5px;
   font-size: 0.8em;
   transition: transform 0.3s;
@@ -801,7 +801,6 @@ footer div:nth-child(2) a {
   font-weight: bold;
 }
 
-
 .program-header {
   padding: 2rem;
   text-align: center;
@@ -837,11 +836,47 @@ footer div:nth-child(2) a {
   }
 }
 
-
 .section-program {
-  background-image: linear-gradient(to right bottom,
-      var(--color-green-50) 0%,
-      var(--color-yellow-50) 100%);
+  background-image: linear-gradient(
+    to right bottom,
+    var(--color-green-50) 0%,
+    var(--color-yellow-50) 100%
+  );
   padding: 4rem 2rem;
   margin-bottom: 2rem;
+}
+
+.titulo-pagina-2 {
+  font-size: 104px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(225, 255, 0, 0.09) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+@media (max-width: 768px) {
+  .titulo-pagina-2 {
+    font-size: 64px;
+  }
+}
+
+.titulo-pagina-3 {
+  text-align: center;
+}
+
+.subtitulo-pagina {
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.titulos-poster-marcacao {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
 }
