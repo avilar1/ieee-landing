@@ -1,25 +1,25 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <section class="schedule-evento section-program">
-    <h2 class="titulos t-g">Cronograma do Evento</h2>
+    <h2 class="titulos t-g">Event Schedule</h2>
     <p id="subtitulo-schedule">
-      Confira abaixo a programação completa do SYP 2026 Brasil. Sujeito a alterações.
+      Check out the full schedule for SYP 2026 Brazil below. Subject to change.
     </p>
     <div class="schedule-container">
-      <!-- Dia 1 -->
+      <!-- Day 1 -->
       <div class="schedule-dia">
         <div class="schedule-dia-header">
-          <span class="schedule-dia-data">12 de Julho, 2026</span>
+          <span class="schedule-dia-data">July 12, 2026</span>
           <span class="schedule-dia-local">Hotel XYZ, Rio de Janeiro</span>
         </div>
         <ul class="schedule-list">
           <li>
             <span class="schedule-horario">08:00 - 09:00</span>
-            <span class="schedule-atividade">Credenciamento & Welcome Coffee</span>
+            <span class="schedule-atividade">Registration & Welcome Coffee</span>
           </li>
           <li>
             <span class="schedule-horario">09:00 - 09:30</span>
-            <span class="schedule-atividade">Cerimônia de Abertura</span>
+            <span class="schedule-atividade">Opening Ceremony</span>
           </li>
           <li>
             <span class="schedule-horario">09:30 - 10:30</span>
@@ -27,42 +27,42 @@
           </li>
           <li>
             <span class="schedule-horario">10:30 - 12:00</span>
-            <span class="schedule-atividade">Painel: Inovação e Tecnologia</span>
+            <span class="schedule-atividade">Panel: Innovation and Technology</span>
           </li>
           <li>
             <span class="schedule-horario">12:00 - 13:30</span>
-            <span class="schedule-atividade">Almoço</span>
+            <span class="schedule-atividade">Lunch</span>
           </li>
-          <!-- Adicione mais atividades conforme necessário -->
+          <!-- Add more activities as needed -->
         </ul>
       </div>
-      <!-- Dia 2 -->
+      <!-- Day 2 -->
       <div class="schedule-dia">
         <div class="schedule-dia-header">
-          <span class="schedule-dia-data">13 de Julho, 2026</span>
+          <span class="schedule-dia-data">July 13, 2026</span>
           <span class="schedule-dia-local">Hotel XYZ, Rio de Janeiro</span>
         </div>
         <ul class="schedule-list">
           <li>
             <span class="schedule-horario">08:30 - 09:30</span>
-            <span class="schedule-atividade">Workshop: Liderança IEEE</span>
+            <span class="schedule-atividade">Workshop: IEEE Leadership</span>
           </li>
           <li>
             <span class="schedule-horario">09:30 - 11:00</span>
-            <span class="schedule-atividade">Sessão Técnica: Inteligência Artificial</span>
+            <span class="schedule-atividade">Technical Session: Artificial Intelligence</span>
           </li>
           <li>
             <span class="schedule-horario">11:00 - 12:30</span>
-            <span class="schedule-atividade">Atividade de Networking</span>
+            <span class="schedule-atividade">Networking Activity</span>
           </li>
           <li>
             <span class="schedule-horario">12:30 - 14:00</span>
-            <span class="schedule-atividade">Almoço</span>
+            <span class="schedule-atividade">Lunch</span>
           </li>
-          <!-- Adicione mais atividades conforme necessário -->
+          <!-- Add more activities as needed -->
         </ul>
       </div>
-      <!-- Adicione mais dias conforme necessário -->
+      <!-- Add more days as needed -->
     </div>
   </section>
 </template>

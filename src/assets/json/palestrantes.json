@@ -3,40 +3,56 @@
     "id": 1,
     "name": "Prof. Dr. Antonio Marcelo Oliveira Siqueira",
     "role": "Keynote Speaker",
+    "title": "Professor",
     "affiliation": "UFMG - Federal University of Minas Gerais",
     "bio": "Expert in power electronics and renewable energy systems",
     "image": "professorImage",
     "email": "siqueira@ufmg.br",
-    "linkedin": "#"
+    "linkedin": "#",
+    "urlImage": "../src/assets/img/professores/WhatsApp Image 2025-09-17 at 17.59.04.jpeg",
+    "country": "Brazil",
+    "flagCountry": "https://flagcdn.com/br.svg"
   },
   {
     "id": 2,
     "name": "Prof. Dr. Edison Roberto Cabral da Silva",
     "role": "Keynote Speaker",
+    "title": "Professor",
     "affiliation": "UFPE - Federal University of Pernambuco",
     "bio": "Specialist in industrial automation and control systems",
     "image": "professorImage",
     "email": "edison@ufpe.br",
-    "linkedin": "#"
+    "linkedin": "#",
+    "urlImage": "../src/assets/img/professores/WhatsApp Image 2025-09-17 at 17.59.04.jpeg",
+    "country": "Brazil",
+    "flagCountry": "https://flagcdn.com/br.svg"
   },
   {
     "id": 3,
     "name": "Prof. Dr. Marcelo Godoy Simões",
     "role": "Keynote Speaker",
+    "title": "Professor",
     "affiliation": "Colorado School of Mines - IEEE IES President",
     "bio": "IEEE Fellow, world authority on renewable energy systems",
     "image": "professorImage",
     "email": "msimoes@mines.edu",
-    "linkedin": "#"
+    "linkedin": "#",
+    "urlImage": "../src/assets/img/professores/WhatsApp Image 2025-09-17 at 17.59.04.jpeg",
+    "country": "USA",
+    "flagCountry": "https://flagcdn.com/us.svg"
   },
   {
     "id": 4,
     "name": "Prof. Dr. Carlos Henrique Barriquello",
     "role": "Keynote Speaker",
+    "title": "Professor",
     "affiliation": "UFSM - Federal University of Santa Maria",
     "bio": "Expert in smart grids and power systems",
     "image": "professorImage",
     "email": "barriquello@ufsm.br",
-    "linkedin": "#"
+    "linkedin": "#",
+    "urlImage": "../src/assets/img/professores/WhatsApp Image 2025-09-17 at 17.59.04.jpeg",
+    "country": "Brazil",
+    "flagCountry": "https://flagcdn.com/br.svg"
   }
 ]

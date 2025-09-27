@@ -6,7 +6,6 @@ const submenuProgram = ref(false)
 const submenuVenue = ref(false)
 
 const alternarMenu = () => { menuAberto.value = !menuAberto.value }
-
 </script>
 
 <template>
@@ -20,19 +19,21 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
           <span>Program</span>
           <span class="seta" :class="{ 'seta-aberta': submenuProgram }">▼</span>
           <ul v-if="submenuProgram">
-            <li><router-link to="/program/schedule">Schedule</router-link></li>
-            <li><router-link to="/program/speakers">Speakers</router-link></li>
-            <li><router-link to="/program/multicultural-night">Multicultural Night</router-link></li>
-            <li><router-link to="/program/poster-session">Poster Session</router-link></li>
+            <li><router-link to="/program">Program (overview)</router-link></li>
+            <li><router-link to="/schedule">Schedule</router-link></li>
+            <li><router-link to="/speakers">Speakers</router-link></li>
+            <li><router-link to="/multicultural-night">Multicultural Night</router-link></li>
+            <li><router-link to="/poster-session">Poster Session</router-link></li>
           </ul>
         </li>
         <li @click="submenuVenue = !submenuVenue">
           <span>Venue</span>
           <span class="seta" :class="{ 'seta-aberta': submenuVenue }">▼</span>
           <ul v-if="submenuVenue">
-            <li><router-link to="/venue/congress-venue">Congress Venue</router-link></li>
-            <li><router-link to="/venue/visa-information">Visa Information</router-link></li>
-            <li><router-link to="/venue/about-rio">About Rio</router-link></li>
+            <li><router-link to="/venue">Venue (overview)</router-link></li>
+            <li><router-link to="/congress-venue">Congress Venue</router-link></li>
+            <li><router-link to="/visa-information">Visa Information</router-link></li>
+            <li><router-link to="/about-rio">About Rio</router-link></li>
           </ul>
         </li>
         <li><router-link to="/sponsors">Sponsors</router-link></li>
