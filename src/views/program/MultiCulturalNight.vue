@@ -567,6 +567,7 @@ h4.titulos-poster-marcacao {
   .night-article-blocao {
     min-width: auto;
     margin: 1rem;
+    width: auto;
   }
 }
 

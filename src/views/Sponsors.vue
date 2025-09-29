@@ -1,8 +1,10 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <section id="top-section" class="top-section-container">
-    <div class="textos-topo">
-      <h1>Sponsors</h1>
-    </div>
+  <section class="schedule-evento section-program">
+    <h2 class="titulos t-a titulo-pagina-2">Sponsors</h2>
+    <h3 class="titulos t-g titulo-pagina-3">IEEE IES SYP Congress – Tunis, Tunisia 2025</h3>
+
+
+  
   </section>
 </template>
