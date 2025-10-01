@@ -11,14 +11,16 @@
   <section class="visa-information ">
     <div class="visa-information-block">
       <div class="visa-header">
-        <h3 class="titulos t-g titulo-pagina-3">Visa Policy for Tunisia</h3>
-        <p class="visa-header-description">Tunisia's visa policy varies depending on your nationality. Some travelers
+        <h3 class="titulos t-g titulo-pagina-3">Visa Policy for Brazil</h3>
+        <p class="visa-header-description">Brazil's visa policy varies depending on your nationality. Some travelers
           can
-          enter visa-free, while others require a visa in advance. Citizens from many countries can stay in Tunisia
-          without a visa for up to 90 days, while others may need to apply for a visa at a Tunisian embassy or consulate
+          enter visa-free, while others require a visa in advance. Citizens from many countries can stay in Brazil
+          without a visa for up to 90 days, while others may need to apply for a visa at a Brazilian embassy or
+          consulate
           before arrival.</p>
 
-        <p class="visa-header-description-important"><span>Important Note:</span> Always check with the Tunisian embassy
+        <p class="visa-header-description-important"><span>Important Note:</span> Always check with the Brazilian
+          embassy
           or consulate in your country for the most up-to-date visa information before planning your trip.</p>
 
       </div>
