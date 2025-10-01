@@ -6,6 +6,16 @@ const submenuProgram = ref(false)
 const submenuVenue = ref(false)
 
 const alternarMenu = () => { menuAberto.value = !menuAberto.value }
+
+const alternarSubmenuProgram = () => {
+  submenuProgram.value = !submenuProgram.value
+  if (submenuProgram.value) submenuVenue.value = false
+}
+
+const alternarSubmenuVenue = () => {
+  submenuVenue.value = !submenuVenue.value
+  if (submenuVenue.value) submenuProgram.value = false
+}
 </script>
 
 <template>
@@ -15,7 +25,7 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
       <ul :class="{ aberto: menuAberto }">
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About Us</router-link></li>
-        <li @click="submenuProgram = !submenuProgram">
+        <li @click="alternarSubmenuProgram">
           <span>Program</span>
           <span class="seta" :class="{ 'seta-aberta': submenuProgram }">▼</span>
           <ul v-if="submenuProgram">
@@ -26,7 +36,7 @@ const alternarMenu = () => { menuAberto.value = !menuAberto.value }
             <li><router-link to="/poster-session">Poster Session</router-link></li>
           </ul>
         </li>
-        <li @click="submenuVenue = !submenuVenue">
+        <li @click="alternarSubmenuVenue">
           <span>Venue</span>
           <span class="seta" :class="{ 'seta-aberta': submenuVenue }">▼</span>
           <ul v-if="submenuVenue">

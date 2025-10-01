@@ -1,0 +1,1827 @@
+[
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e6-1f1e8.svg",
+    "country": "Ascension Island",
+    "code": "ac",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Andorra.svg",
+    "country": "Andorra",
+    "code": "ad",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Arab_Emirates.svg",
+    "country": "United Arab Emirates",
+    "code": "ae",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Afghanistan.svg",
+    "country": "Afghanistan",
+    "code": "af",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Antigua_and_Barbuda.svg",
+    "country": "Antigua & Barbuda",
+    "code": "ag",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Anguilla.svg",
+    "country": "Anguilla",
+    "code": "ai",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Albania.svg",
+    "country": "Albania",
+    "code": "al",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Armenia.svg",
+    "country": "Armenia",
+    "code": "am",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Andorra.svg",
+    "country": "Angola",
+    "code": "ad",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Antarctica.svg",
+    "country": "Antarctica",
+    "code": "aq",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg",
+    "country": "Argentina",
+    "code": "ar",
+    "visa": false,
+    "typeVisa": "no Visa"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_American_Samoa.svg",
+    "country": "American Samoa",
+    "code": "as",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Austria.svg",
+    "country": "Austria",
+    "code": "at",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Australia.svg",
+    "country": "Australia",
+    "code": "au",
+    "visa": false,
+    "typeVisa": "Electronic visa"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Aruba.svg",
+    "country": "Aruba",
+    "code": "aw",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_%C3%85land.svg",
+    "country": "Åland Islands",
+    "code": "ax",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan.svg",
+    "country": "Azerbaijan",
+    "code": "az",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina.svg",
+    "country": "Bosnia & Herzegovina",
+    "code": "ba",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Barbados.svg",
+    "country": "Barbados",
+    "code": "bb",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Bangladesh.svg",
+    "country": "Bangladesh",
+    "code": "bd",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Belgium.svg",
+    "country": "Belgium",
+    "code": "be",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Burkina_Faso.svg",
+    "country": "Burkina Faso",
+    "code": "bf",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria.svg",
+    "country": "Bulgaria",
+    "code": "bg",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Bahrain.svg",
+    "country": "Bahrain",
+    "code": "bh",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Burundi.svg",
+    "country": "Burundi",
+    "code": "bi",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Benin.svg",
+    "country": "Benin",
+    "code": "bj",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+    "country": "St. Barthélemy",
+    "code": "bl",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Bermuda.svg",
+    "country": "Bermuda",
+    "code": "bm",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Brunei.svg",
+    "country": "Brunei",
+    "code": "bn",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Bolivia.svg",
+    "country": "Bolivia",
+    "code": "bo",
+    "visa": false,
+    "typeVisa": "no Visa"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f6.svg",
+    "country": "Caribbean Netherlands",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg",
+    "country": "Brazil",
+    "code": "br",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Bahamas.svg",
+    "country": "Bahamas",
+    "code": "bs",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Bhutan.svg",
+    "country": "Bhutan",
+    "code": "bt",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Norway.svg",
+    "country": "Bouvet Island",
+    "code": "bv",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Botswana.svg",
+    "country": "Botswana",
+    "code": "bw",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Belarus.svg",
+    "country": "Belarus",
+    "code": "by",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Belize.svg",
+    "country": "Belize",
+    "code": "bz",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Canada.svg",
+    "country": "Canada",
+    "code": "ca",
+    "visa": false,
+    "typeVisa": "Electronic visa"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Cocos_(Keeling)_Islands.svg",
+    "country": "Cocos (Keeling) Islands",
+    "code": "cc",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo.svg",
+    "country": "Congo - Kinshasa",
+    "code": "cg",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Central_African_Republic.svg",
+    "country": "Central African Republic",
+    "code": "cf",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo.svg",
+    "country": "Congo - Brazzaville",
+    "code": "cd",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland_(Pantone).svg",
+    "country": "Switzerland",
+    "code": "ch",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_C%C3%B4te_d%27Ivoire.svg",
+    "country": "Côte d’Ivoire",
+    "code": "ci",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Cook_Islands.svg",
+    "country": "Cook Islands",
+    "code": "ck",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Chile.svg",
+    "country": "Chile",
+    "code": "cl",
+    "visa": false,
+    "typeVisa": "no Visa"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Cameroon.svg",
+    "country": "Cameroon",
+    "code": "cm",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
+    "country": "China",
+    "code": "cn",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Colombia.svg",
+    "country": "Colombia",
+    "code": "co",
+    "visa": false,
+    "typeVisa": "no Visa"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f5.svg",
+    "country": "Clipperton Island",
+    "code": "cp",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Costa_Rica_(state).svg",
+    "country": "Costa Rica",
+    "code": "cr",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Cuba.svg",
+    "country": "Cuba",
+    "code": "cu",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Cape_Verde.svg",
+    "country": "Cape Verde",
+    "code": "cv",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Cura%C3%A7ao.svg",
+    "country": "Curaçao",
+    "code": "cw",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Christmas_Island.svg",
+    "country": "Christmas Island",
+    "code": "cx",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus.svg",
+    "country": "Cyprus",
+    "code": "cy",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+    "country": "Czechia",
+    "code": "cz",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg",
+    "country": "Germany",
+    "code": "de",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e9-1f1ec.svg",
+    "country": "Diego Garcia",
+    "code": "dg",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Djibouti.svg",
+    "country": "Djibouti",
+    "code": "dj",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+    "country": "Denmark",
+    "code": "dk",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Dominica.svg",
+    "country": "Dominica",
+    "code": "dm",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Dominican_Republic.svg",
+    "country": "Dominican Republic",
+    "code": "do",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Algeria.svg",
+    "country": "Algeria",
+    "code": "dz",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ea-1f1e6.svg",
+    "country": "Ceuta & Melilla",
+    "code": "ea",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Ecuador.svg",
+    "country": "Ecuador",
+    "code": "ec",
+    "visa": false,
+    "typeVisa": "no Visa"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Estonia.svg",
+    "country": "Estonia",
+    "code": "ee",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt.svg",
+    "country": "Egypt",
+    "code": "eg",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Sahrawi_Arab_Democratic_Republic_(obverse).svg",
+    "country": "Western Sahara",
+    "code": "eh",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Eritrea.svg",
+    "country": "Eritrea",
+    "code": "er",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+    "country": "Spain",
+    "code": "es",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia.svg",
+    "country": "Ethiopia",
+    "code": "et",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ea-1f1fa.svg",
+    "country": "European Union",
+    "code": "eu",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Finland.svg",
+    "country": "Finland",
+    "code": "fi",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Fiji.svg",
+    "country": "Fiji",
+    "code": "fj",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Falkland_Islands.svg",
+    "country": "Falkland Islands",
+    "code": "fk",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Federated_States_of_Micronesia.svg",
+    "country": "Micronesia",
+    "code": "fm",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Faroe_Islands.svg",
+    "country": "Faroe Islands",
+    "code": "fo",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+    "country": "France",
+    "code": "fr",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Gabon.svg",
+    "country": "Gabon",
+    "code": "ga",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Union_flag_1606_(Kings_Colors).svg",
+    "country": "United Kingdom",
+    "code": "gb",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Grenada.svg",
+    "country": "Grenada",
+    "code": "gd",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Georgia.svg",
+    "country": "Georgia",
+    "code": "ge",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+    "country": "French Guiana",
+    "code": "gf",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Guernsey.svg",
+    "country": "Guernsey",
+    "code": "gg",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Ghana.svg",
+    "country": "Ghana",
+    "code": "gh",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Gibraltar.svg",
+    "country": "Gibraltar",
+    "code": "gi",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Greenland.svg",
+    "country": "Greenland",
+    "code": "gl",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_The_Gambia.svg",
+    "country": "Gambia",
+    "code": "gm",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Guinea.svg",
+    "country": "Guinea",
+    "code": "gn",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+    "country": "Guadeloupe",
+    "code": "gp",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Equatorial_Guinea.svg",
+    "country": "Equatorial Guinea",
+    "code": "gq",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+    "country": "Greece",
+    "code": "gr",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg",
+    "country": "South Georgia & South', Sandwich Islands",
+    "code": "gs",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Guatemala.svg",
+    "country": "Guatemala",
+    "code": "gt",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Guam.svg",
+    "country": "Guam",
+    "code": "gu",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Guinea-Bissau.svg",
+    "country": "Guinea-Bissau",
+    "code": "gw",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Guyana.svg",
+    "country": "Guyana",
+    "code": "gy",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Hong_Kong.svg",
+    "country": "Hong Kong SAR China",
+    "code": "hk",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Australia.svg",
+    "country": "Heard & McDonald Islands",
+    "code": "hm",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras.svg",
+    "country": "Honduras",
+    "code": "hn",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Croatia.svg",
+    "country": "Croatia",
+    "code": "hr",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti.svg",
+    "country": "Haiti",
+    "code": "ht",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Hungary.svg",
+    "country": "Hungary",
+    "code": "hu",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ee-1f1e8.svg",
+    "country": "Canary Islands",
+    "code": "ic",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Indonesia.svg",
+    "country": "Indonesia",
+    "code": "id",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Ireland.svg",
+    "country": "Ireland",
+    "code": "ie",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg",
+    "country": "Israel",
+    "code": "il",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Isle_of_Man.svg",
+    "country": "Isle of Man",
+    "code": "im",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg",
+    "country": "India",
+    "code": "in",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_British_Indian_Ocean_Territory.svg",
+    "country": "British Indian Ocean Territory",
+    "code": "io",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Iraq.svg",
+    "country": "Iraq",
+    "code": "iq",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f7.svg",
+    "country": "Iran",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland.svg",
+    "country": "Iceland",
+    "code": "is",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy.svg",
+    "country": "Italy",
+    "code": "it",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Jersey.svg",
+    "country": "Jersey",
+    "code": "je",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Jamaica.svg",
+    "country": "Jamaica",
+    "code": "jm",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Jordan.svg",
+    "country": "Jordan",
+    "code": "jo",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg",
+    "country": "Japan",
+    "code": "jp",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg",
+    "country": "Kenya",
+    "code": "ke",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Kyrgyzstan.svg",
+    "country": "Kyrgyzstan",
+    "code": "kg",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Cambodia.svg",
+    "country": "Cambodia",
+    "code": "kh",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Kiribati.svg",
+    "country": "Kiribati",
+    "code": "ki",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Comoros.svg",
+    "country": "Comoros",
+    "code": "km",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Kitts_and_Nevis.svg",
+    "country": "St. Kitts & Nevis",
+    "code": "kn",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_North_Korea.svg",
+    "country": "North Korea",
+    "code": "kp",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+    "country": "South Korea",
+    "code": "kr",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Kuwait.svg",
+    "country": "Kuwait",
+    "code": "kw",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Cayman_Islands.svg",
+    "country": "Cayman Islands",
+    "code": "ky",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Kazakhstan.svg",
+    "country": "Kazakhstan",
+    "code": "kz",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Laos.svg",
+    "country": "Laos",
+    "code": "la",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Lebanon.svg",
+    "country": "Lebanon",
+    "code": "lb",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Lucia.svg",
+    "country": "St. Lucia",
+    "code": "lc",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein.svg",
+    "country": "Liechtenstein",
+    "code": "li",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Sri_Lanka.svg",
+    "country": "Sri Lanka",
+    "code": "lk",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Liberia.svg",
+    "country": "Liberia",
+    "code": "lr",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Lesotho.svg",
+    "country": "Lesotho",
+    "code": "ls",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Lithuania.svg",
+    "country": "Lithuania",
+    "code": "lt",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Luxembourg.svg",
+    "country": "Luxembourg",
+    "code": "lu",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Latvia.svg",
+    "country": "Latvia",
+    "code": "lv",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Libya.svg",
+    "country": "Libya",
+    "code": "ly",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Morocco.svg",
+    "country": "Morocco",
+    "code": "ma",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Monaco.svg",
+    "country": "Monaco",
+    "code": "mc",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Moldova.svg",
+    "country": "Moldova",
+    "code": "md",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Montenegro.svg",
+    "country": "Montenegro",
+    "code": "me",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+    "country": "St. Martin",
+    "code": "mf",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Madagascar.svg",
+    "country": "Madagascar",
+    "code": "mg",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Marshall_Islands.svg",
+    "country": "Marshall Islands",
+    "code": "mh",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Macedonia.svg",
+    "country": "North Macedonia",
+    "code": "mk",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Mali.svg",
+    "country": "Mali",
+    "code": "ml",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Myanmar.svg",
+    "country": "Myanmar (Burma)",
+    "code": "mm",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Mongolia.svg",
+    "country": "Mongolia",
+    "code": "mn",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Macau.svg",
+    "country": "Macao Sar China",
+    "code": "mo",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Northern_Mariana_Islands.svg",
+    "country": "Northern Mariana Islands",
+    "code": "mp",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+    "country": "Martinique",
+    "code": "mq",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania.svg",
+    "country": "Mauritania",
+    "code": "mr",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Montserrat.svg",
+    "country": "Montserrat",
+    "code": "ms",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Malta.svg",
+    "country": "Malta",
+    "code": "mt",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritius.svg",
+    "country": "Mauritius",
+    "code": "mu",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Maldives.svg",
+    "country": "Maldives",
+    "code": "mv",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Malawi.svg",
+    "country": "Malawi",
+    "code": "mw",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg",
+    "country": "Mexico",
+    "code": "mx",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Malaysia.svg",
+    "country": "Malaysia",
+    "code": "my",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique.svg",
+    "country": "Mozambique",
+    "code": "mz",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Namibia.svg",
+    "country": "Namibia",
+    "code": "na",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+    "country": "New Caledonia",
+    "code": "nc",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Niger.svg",
+    "country": "Niger",
+    "code": "ne",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Norfolk_Island.svg",
+    "country": "Norfolk Island",
+    "code": "nf",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Nigeria.svg",
+    "country": "Nigeria",
+    "code": "ng",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Nicaragua.svg",
+    "country": "Nicaragua",
+    "code": "ni",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands.svg",
+    "country": "Netherlands",
+    "code": "nl",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Norway.svg",
+    "country": "Norway",
+    "code": "no",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Nepal.svg",
+    "country": "Nepal",
+    "code": "np",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Nauru.svg",
+    "country": "Nauru",
+    "code": "nr",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Niue.svg",
+    "country": "Niue",
+    "code": "nu",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Zealand.svg",
+    "country": "New Zealand",
+    "code": "nz",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Oman.svg",
+    "country": "Oman",
+    "code": "om",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Panama.svg",
+    "country": "Panama",
+    "code": "pa",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Peru.svg",
+    "country": "Peru",
+    "code": "pe",
+    "visa": false,
+    "typeVisa": "no Visa"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+    "country": "French Polynesia",
+    "code": "pf",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Papua_New_Guinea.svg",
+    "country": "Papua New Guinea",
+    "code": "pg",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Philippines.svg",
+    "country": "Philippines",
+    "code": "ph",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Pakistan.svg",
+    "country": "Pakistan",
+    "code": "pk",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Poland.svg",
+    "country": "Poland",
+    "code": "pl",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+    "country": "St. Pierre & Miquelon",
+    "code": "pm",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Pitcairn_Islands.svg",
+    "country": "Pitcairn Islands",
+    "code": "pn",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Puerto_Rico.svg",
+    "country": "Puerto Rico",
+    "code": "pr",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Palestine.svg",
+    "country": "Palestinian Territories",
+    "code": "ps",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal.svg",
+    "country": "Portugal",
+    "code": "pt",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Palau.svg",
+    "country": "Palau",
+    "code": "pw",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Paraguay.svg",
+    "country": "Paraguay",
+    "code": "py",
+    "visa": false,
+    "typeVisa": "no Visa"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Qatar.svg",
+    "country": "Qatar",
+    "code": "qa",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+    "country": "Réunion",
+    "code": "re",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Romania.svg",
+    "country": "Romania",
+    "code": "ro",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f7-1f1f8.svg",
+    "country": "Serbia",
+    "code": "yu",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
+    "country": "Russia",
+    "code": "ru",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Rwanda.svg",
+    "country": "Rwanda",
+    "code": "rw",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Saudi_Arabia.svg",
+    "country": "Saudi Arabia",
+    "code": "sa",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Solomon_Islands.svg",
+    "country": "Solomon Islands",
+    "code": "sb",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Seychelles.svg",
+    "country": "Seychelles",
+    "code": "sc",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Sudan.svg",
+    "country": "Sudan",
+    "code": "sd",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Sweden.svg",
+    "country": "Sweden",
+    "code": "se",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Singapore.svg",
+    "country": "Singapore",
+    "code": "sg",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom.svg",
+    "country": "St. Helena",
+    "code": "sh",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Slovenia.svg",
+    "country": "Slovenia",
+    "code": "si",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Norway.svg",
+    "country": "Svalbard & Jan Mayen",
+    "code": "sj",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Slovakia.svg",
+    "country": "Slovakia",
+    "code": "sk",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Sierra_Leone.svg",
+    "country": "Sierra Leone",
+    "code": "sl",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_San_Marino.svg",
+    "country": "San Marino",
+    "code": "sm",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Senegal.svg",
+    "country": "Senegal",
+    "code": "sn",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Somalia.svg",
+    "country": "Somalia",
+    "code": "so",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Suriname.svg",
+    "country": "Suriname",
+    "code": "sr",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f8-1f1f8.svg",
+    "country": "South Sudan",
+    "code": "ss",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Sao_Tome_and_Principe.svg",
+    "country": "São Tomé & Príncipe",
+    "code": "st",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg",
+    "country": "El Salvador",
+    "code": "sv",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Sint_Maarten.svg",
+    "country": "Sint Maarten",
+    "code": "sx",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Syria.svg",
+    "country": "Syria",
+    "code": "sy",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Swaziland.svg",
+    "country": "Eswatini",
+    "code": "sz",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom.svg",
+    "country": "Tristan Da Cunha",
+    "code": "sh",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Turks_and_Caicos_Islands.svg",
+    "country": "Turks & Caicos Islands",
+    "code": "tc",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Chad.svg",
+    "country": "Chad",
+    "code": "td",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_French_Southern_and_Antarctic_Lands.svg",
+    "country": "French Southern Territories",
+    "code": "tf",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Togo.svg",
+    "country": "Togo",
+    "code": "tg",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Thailand.svg",
+    "country": "Thailand",
+    "code": "th",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Tajikistan.svg",
+    "country": "Tajikistan",
+    "code": "tj",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Tokelau.svg",
+    "country": "Tokelau",
+    "code": "tk",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor.svg",
+    "country": "Timor-Leste",
+    "code": "tl",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkmenistan.svg",
+    "country": "Turkmenistan",
+    "code": "tm",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Tunisia.svg",
+    "country": "Tunisia",
+    "code": "tn",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Tonga.svg",
+    "country": "Tonga",
+    "code": "to",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg",
+    "country": "Turkey",
+    "code": "tr",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Trinidad_and_Tobago.svg",
+    "country": "Trinidad & Tobago",
+    "code": "tt",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Tuvalu.svg",
+    "country": "Tuvalu",
+    "code": "tv",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China.svg",
+    "country": "Taiwan",
+    "code": "tw",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Tanzania.svg",
+    "country": "Tanzania",
+    "code": "tz",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg",
+    "country": "Ukraine",
+    "code": "ua",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Uganda.svg",
+    "country": "Uganda",
+    "code": "ug",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg",
+    "country": "U.S. Outlying Islands",
+    "code": "um",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1fa-1f1f3.svg",
+    "country": "United Nations",
+    "code": "un",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg",
+    "country": "United States",
+    "code": "us",
+    "visa": false,
+    "typeVisa": "Electronic visa"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Uruguay.svg",
+    "country": "Uruguay",
+    "code": "uy",
+    "visa": false,
+    "typeVisa": "no Visa"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Uzbekistan.svg",
+    "country": "Uzbekistan",
+    "code": "uz",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Vatican_City.svg",
+    "country": "Vatican City",
+    "code": "va",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Vincent_and_the_Grenadines.svg",
+    "country": "St. Vincent & Grenadines",
+    "code": "vc",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Venezuela.svg",
+    "country": "Venezuela",
+    "code": "ve",
+    "visa": false,
+    "typeVisa": "no Visa"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_British_Virgin_Islands.svg",
+    "country": "British Virgin Islands",
+    "code": "vg",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_Virgin_Islands.svg",
+    "country": "U.S. Virgin Islands",
+    "code": "vi",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg",
+    "country": "Vietnam",
+    "code": "vn",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Vanuatu.svg",
+    "country": "Vanuatu",
+    "code": "vu",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+    "country": "Wallis & Futuna",
+    "code": "wf",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Samoa.svg",
+    "country": "Samoa",
+    "code": "ws",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1fd-1f1f0.svg",
+    "country": "Kosovo",
+    "code": "xk",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Yemen.svg",
+    "country": "Yemen",
+    "code": "ye",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+    "country": "Mayotte",
+    "code": "yt",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg",
+    "country": "South Africa",
+    "code": "za",
+    "visa": false,
+    "typeVisa": "90 days free"
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Zambia.svg",
+    "country": "Zambia",
+    "code": "zm",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg",
+    "country": "Zimbabwe",
+    "code": "zw",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.svg",
+    "country": "England",
+    "code": "uk",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f3f4-e0067-e0062-e0073-e0063-e0074-e007f.svg",
+    "country": "Scotland",
+    "code": "uk",
+    "visa": true,
+    "typeVisa": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f3f4-e0067-e0062-e0077-e006c-e0073-e007f.svg",
+    "country": "Wales",
+    "code": "uk",
+    "visa": true,
+    "typeVisa": ""
+  }
+]
