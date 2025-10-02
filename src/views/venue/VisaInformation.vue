@@ -172,7 +172,7 @@ const visa90Days = ref<Country[]>([]);
 const visaElectronic = ref<Country[]>([]);
 
 onMounted(async () => {
-  const res = await fetch('/src/assets/json/json-flags/visa_policy_final.json');
+  const res = await fetch('../json/json-flags/visa_policy_final_20251002_v3.json');
   visaCountries.value = await res.json();
 
   visaFree.value = visaCountries.value.filter(c => c.typeVisa === 'no Visa');
@@ -309,6 +309,10 @@ onMounted(async () => {
   box-shadow: 0 2px 8px #0001;
   width: calc(100% - 2rem);
   max-width: 350px;
+}
+
+.visa-country:hover {
+  box-shadow: 0 4px 16px #0002;
 }
 
 .visa-flag {

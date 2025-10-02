@@ -864,6 +864,12 @@ footer div:nth-child(2) a {
   }
 }
 
+@media (max-width: 480px) {
+  .titulo-pagina-2 {
+    font-size: 32px;
+  }
+}
+
 .titulo-pagina-3 {
   text-align: center;
 }

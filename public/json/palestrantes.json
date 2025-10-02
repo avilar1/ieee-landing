@@ -11,7 +11,7 @@
     "linkedin": "#",
     "urlImage": "../src/assets/img/professores/WhatsApp Image 2025-09-17 at 17.59.04.jpeg",
     "country": "Brazil",
-    "flagCountry": "https://flagcdn.com/br.svg"
+    "flagCountry": "../json/json-flags/4x3/br.svg"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
     "linkedin": "#",
     "urlImage": "../src/assets/img/professores/WhatsApp Image 2025-09-17 at 17.59.04.jpeg",
     "country": "Brazil",
-    "flagCountry": "https://flagcdn.com/br.svg"
+    "flagCountry": "../json/json-flags/4x3/br.svg"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
     "linkedin": "#",
     "urlImage": "../src/assets/img/professores/WhatsApp Image 2025-09-17 at 17.59.04.jpeg",
     "country": "USA",
-    "flagCountry": "https://flagcdn.com/us.svg"
+    "flagCountry": "../json/json-flags/4x3/us.svg"
   },
   {
     "id": 4,
@@ -53,6 +53,6 @@
     "linkedin": "#",
     "urlImage": "../src/assets/img/professores/WhatsApp Image 2025-09-17 at 17.59.04.jpeg",
     "country": "Brazil",
-    "flagCountry": "https://flagcdn.com/br.svg"
+    "flagCountry": "../json/json-flags/4x3/br.svg"
   }
 ]

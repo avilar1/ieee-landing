@@ -31,13 +31,14 @@ const loadTeamData = async () => {
     let jsonFile;
 
     if (props.dataSource === 'palestrantes') {
-      jsonFile = await import('@/assets/json/palestrantes.json')
+      jsonFile = await fetch('/json/palestrantes.json');
     } else {
-      jsonFile = await import('@/assets/json/organizadores.json')
+      jsonFile = await fetch('/json/organizadores.json');
     }
 
     // Mapear os dados e substituir a string da imagem pela imagem real
-    teamMembers.value = jsonFile.default.map((member: any) => ({
+    const data = await jsonFile.json();
+    teamMembers.value = data.map((member: any) => ({
       ...member,
       image: professorImage // Substituir a string pela imagem importada
     }))

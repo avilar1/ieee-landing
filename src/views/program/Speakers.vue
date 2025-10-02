@@ -33,8 +33,8 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 
-// Importando o JSON localmente
-import palestrantesData from "@/assets/json/palestrantes.json";
+// Remover o import do JSON
+// import palestrantesData from "@/assets/json/palestrantes.json";
 
 interface Speaker {
   id: number;
@@ -53,8 +53,14 @@ interface Speaker {
 
 const palestrantes = ref<Speaker[]>([]);
 
-onMounted(() => {
-  palestrantes.value = palestrantesData;
+// Usar fetch para carregar o JSON da pasta public
+onMounted(async () => {
+  try {
+    const response = await fetch('/json/palestrantes.json');
+    palestrantes.value = await response.json();
+  } catch (error) {
+    console.error('Erro ao carregar palestrantes:', error);
+  }
 });
 </script>
 
