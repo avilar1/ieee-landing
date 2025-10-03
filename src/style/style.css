@@ -845,7 +845,9 @@ footer div:nth-child(2) a {
     var(--color-yellow-50) 100%
   );
   padding: 4rem 2rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
+
+  /* border-bottom: 2px solid rgba(0, 0, 0, 0.1); */
 }
 
 .titulo-pagina-2 {

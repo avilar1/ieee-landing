@@ -2,9 +2,9 @@
 <template>
   <section class="schedule-evento section-program">
     <h2 class="titulos t-a titulo-pagina-2">PROGRAM</h2>
-    <h3 class="titulos t-g titulo-pagina-3">IEEE IES SYP Congress – Tunis, Tunisia 2025</h3>
+    <h3 class="titulos t-g titulo-pagina-3">IEEE IES SYP Congress – Rio de Janeiro, Brazil - August  2026</h3>
     <p class="subtitulo-pagina">Join us for four incredible days of learning, networking, and innovation in the heart of
-      Tunisia</p>
+      Brazil</p>
 
     <article class="program-intro-box">
       <h4 class="titulos t-a">Your Guide to Rio</h4>
@@ -37,7 +37,7 @@
     <div class="program-dias">
       <button v-for="(dia, index) in programacao" :key="index" :class="{ 'dia-ativo': index === diaAtual }"
         @click="selecionarDia(index)">
-        Day {{ index + 1 }}
+        {{ index === 0 ? 'Day 0' : `Day ${index}` }}
         <span class="data-dia">{{ dia.data }}</span>
       </button>
     </div>
@@ -93,52 +93,148 @@ const diaAtual = ref(0)
 
 const programacao: ProgramacaoDia[] = [
   {
-    data: "27 September 2025",
+    data: "Wednesday, August 05",
     atividades: [
+      {
+        horario: "15:00 - 19:00",
+        titulo: "Hotel and Congress Check-in",
+        descricao: "Target participants from abroad",
+        local: "Hotel"
+      }
+    ]
+  },
+  {
+    data: "Thursday, August 06",
+    atividades: [
+      {
+        horario: "08:00 - 09:00",
+        titulo: "Congress Check-in",
+        descricao: "Target local participants",
+        local: "CEFET-RJ"
+      },
       {
         horario: "09:00 - 10:30",
         titulo: "Opening Ceremony",
-        descricao: "Welcome speeches and congress introduction",
-        local: "Main Auditorium"
+        descricao: "Local authorities, IES president and committees",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "10:30 - 10:45",
+        titulo: "Coffee Break",
+        descricao: "Networking opportunity",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "10:45 - 11:30",
+        titulo: "Panel: IEEE Experiences",
+        descricao: "Discussion on how IEEE promotes science and knowledge development",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "11:30 - 12:15",
+        titulo: "Academic Keynote",
+        descricao: "Keynotes addressed by experts in the congress theme",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "12:15 - 13:15",
+        titulo: "Lunch Break",
+        descricao: "On-site lunch",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "13:15 - 15:15",
+        titulo: "Maracanã Visit",
+        descricao: "Guided tour of the iconic stadium",
+        local: "Maracanã Stadium"
+      },
+      {
+        horario: "15:15 - 16:00",
+        titulo: "IES Overview Session",
+        descricao: "Introduction to IEEE Industrial Electronics Society",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "16:00 - 16:15",
+        titulo: "Coffee Break",
+        descricao: "Short break",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "16:15 - 18:00",
+        titulo: "Parallel Workshops",
+        descricao: "Technical and non-technical workshops, including IES-related matters",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "18:00 - 22:00",
+        titulo: "Multicultural Evening",
+        descricao: "Cultural exchange and networking event",
+        local: "On Site"
+      }
+    ]
+  },
+  {
+    data: "Friday, August 07",
+    atividades: [
+      {
+        horario: "09:00 - 11:00",
+        titulo: "Poster Session",
+        descricao: "Research presentations and discussions",
+        local: "CEFET-RJ"
       },
       {
         horario: "11:00 - 12:30",
-        titulo: "Keynote Speaker",
-        descricao: "Future of Industrial Electronics",
-        local: "Main Auditorium"
+        titulo: "Industrial Keynotes 1 and 2",
+        descricao: "Keynotes addressed by experts in the congress theme",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "12:30 - 14:00",
+        titulo: "Lunch Break",
+        descricao: "On-site lunch",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "14:00 - 16:00",
+        titulo: "Industry Connections",
+        descricao: "Networking with industry professionals",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "16:00 - 16:15",
+        titulo: "Coffee Break",
+        descricao: "Short break",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "16:15 - 17:30",
+        titulo: "IES SYP Congress 2027 Hosting Proposals",
+        descricao: "Session where candidates will present their proposals",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "17:30 - 19:00",
+        titulo: "Break",
+        descricao: "Free time",
+        local: "CEFET-RJ"
+      },
+      {
+        horario: "19:00 - 22:00",
+        titulo: "Gala Dinner",
+        descricao: "Official congress dinner and awards ceremony",
+        local: "Special Venue"
       }
     ]
   },
   {
-    data: "28 September 2025",
+    data: "Saturday, August 08",
     atividades: [
       {
-        horario: "09:00 - 10:30",
-        titulo: "Technical Sessions",
-        descricao: "Parallel sessions on various topics",
-        local: "Multiple Rooms"
-      }
-    ]
-  },
-  {
-    data: "29 September 2025",
-    atividades: [
-      {
-        horario: "09:00 - 17:00",
-        titulo: "Workshop Day",
-        descricao: "Hands-on workshops and training",
-        local: "Workshop Rooms"
-      }
-    ]
-  },
-  {
-    data: "30 September 2025",
-    atividades: [
-      {
-        horario: "09:00 - 12:00",
-        titulo: "Closing Session",
-        descricao: "Final presentations and closing ceremony",
-        local: "Main Auditorium"
+        horario: "08:00 - 12:00",
+        titulo: "Sugar Loaf Tourist Tour",
+        descricao: "Tour and official event photo",
+        local: "Sugar Loaf Mountain"
       }
     ]
   }
@@ -151,7 +247,7 @@ const selecionarDia = (index: number) => {
 
 <style scoped>
 .section-program {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   display: flex;
   flex-direction: column;
   align-items: center;

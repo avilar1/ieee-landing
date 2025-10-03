@@ -63,6 +63,10 @@
       </div>
     </div>
   </section>
+
+  <section class="Rio-images">
+
+  </section>
 </template>
 
 <style scoped>

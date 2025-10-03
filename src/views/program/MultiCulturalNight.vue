@@ -17,7 +17,7 @@
               <span class="card-ev-icon-span">📅</span>
 
               <h4>Date</h4>
-              <p>August 15, 2025</p>
+              <p>August 15,  2026</p>
             </div>
             <div class=" card-ev">
 
@@ -105,7 +105,7 @@
 
       <ul class="night-cards-sure">
         <li>Respect all cultures and represent your own with care</li>
-        <li>Submit any technical or special requirements by August 10, 2025 here</li>
+        <li>Submit any technical or special requirements by August 10,  2026 here</li>
         <li>Bring any necessary serving materials (utensils, trays, etc.)</li>
         <li>Clean your area at the end of the night</li>
         <li>Bring your country's flag to proudly represent your delegation.</li>
@@ -136,7 +136,7 @@
 
         <article class="night-article-blocao night-article-blocao-3">
           <h4 class="titulos t-g titulos-poster-marcacao">Ready to Showcase Your Rio Brand?</h4>
-          <p>Showcase your Tunisian brand in front of +150 guests national and international</p>
+          <p>Showcase your Carioca brand in front of +150 guests national and international</p>
 
           <div class="night-article-cards-grid">
             <div class="night-article-cards-grid-item">

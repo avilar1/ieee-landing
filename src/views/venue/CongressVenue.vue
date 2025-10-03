@@ -6,22 +6,22 @@
       <div class="container-topo-venue">
         <div class="container-topo-venue-a">
           <article class="container-topo-venue-b1-caixa">
-            <h3>Regency Tunis Hotel</h3>
-            <p class="topo-venue-b1-info topo-venue-b1-info-top">B.P 705 Les Côtes De Carthage Gammarth, Tunis, Tunisia
-              2078</p>
-            <p class="topo-venue-b1-info topo-venue-b1-info-top">Premium luxury accommodation</p>
+            <h3>IEEE Rio de Janeiro Section</h3>
+            <p class="topo-venue-b1-info topo-venue-b1-info-top">Av. Maracanã, 229 - Maracanã, Rio de Janeiro - RJ,
+              20271-110</p>
+            <p class="topo-venue-b1-info topo-venue-b1-info-top">Modern conference facilities</p>
             <hr>
-            <p class="topo-venue-b1-info topo-venue-b1-info-bottom">Experience the best in comfort and service at the
-              Regency Tunis Hotel.</p>
+            <p class="topo-venue-b1-info topo-venue-b1-info-bottom">Experience world-class technical presentations and
+              networking opportunities at IEEE Rio de Janeiro.</p>
           </article>
           <div class="container-topo-venue-b2-grid">
             <div class="topo-venue-b2-card">
-              <p>5-Star</p>
-              <span>Luxury</span>
+              <p>Modern</p>
+              <span>Facilities</span>
             </div>
             <div class="topo-venue-b2-card">
-              <p>Ocean</p>
-              <span>Views</span>
+              <p>City</p>
+              <span>Location</span>
             </div>
             <div class="topo-venue-b2-card">
               <p>Premium</p>
@@ -38,7 +38,7 @@
                 src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=Av.%20Maracan%C3%A3,%20229%20-%20Maracan%C3%A3,%20Rio%20de%20Janeiro%20-%20RJ,%2020271-110+(IEEE%20RIO)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
             </div>
           </div>
-          <p>Located in the prestigious Gammarth area, just minutes from downtown Tunis</p>
+          <p>Located in the heart of Rio de Janeiro, near the iconic Maracanã Stadium</p>
         </article>
       </div>
     </section>
@@ -72,8 +72,8 @@
       </article>
 
       <article class="venue-chegada">
-        <h4>From Tunis-Carthage International Airport (TUN)</h4>
-        <p>To The Regency Hotel, Gammarth: 23km, just 20–30 minutes</p>
+        <h4>From Galeão International Airport (GIG)</h4>
+        <p>To IEEE Rio de Janeiro Section: 25km, approximately 30–45 minutes</p>
       </article>
 
       <article class="venue-transportation">
@@ -82,15 +82,15 @@
         <div class="transportation-options-grid">
           <div class="transportation-option">
             <h5>Taxi</h5>
-            <p>Available 24/7 outside the arrivals terminal. Estimated fare to the hotel is approximately 30 TND.</p>
+            <p>Available 24/7 outside the arrivals terminal. Estimated fare to the venue is approximately R$ 60-80.</p>
           </div>
           <div class="transportation-option">
             <h5>Private Transfer</h5>
-            <p>Pre-book a private transfer for a hassle-free experience. Prices start at 40 TND.</p>
+            <p>Pre-book a private transfer for a hassle-free experience. Prices start at R$ 80.</p>
           </div>
           <div class="transportation-option">
             <h5>Car Rental</h5>
-            <p>Several car rental agencies are available at the airport. Driving time to the hotel is about 25 minutes.
+            <p>Several car rental agencies are available at the airport. Driving time to the venue is about 35 minutes.
             </p>
           </div>
         </div>
@@ -101,24 +101,19 @@
             <div class="public-transport-step">
               <h6>Step 1: From the Airport</h6>
               <ul>
-                <li><span>Route</span>: Take bus line 35 from the airport to Tunis city center. Buses run every 30
+                <li><span>Route</span>: Take the BRT (Bus Rapid Transit) from Galeão to Alvorada. Buses run every 15
                   minutes.</li>
-                <li><span>Duration</span>: Approximately 45 minutes to the city center.</li>
-                <li><span>Cost</span>: Around 1.5 TND.</li>
-                <li><span>Cost</span>: Around 1.5 TND.</li>
-                <li><span>Cost</span>: Around 1.5 TND.</li>
-
+                <li><span>Duration</span>: Approximately 60 minutes to reach the city center.</li>
+                <li><span>Cost</span>: Around R$ 4.30.</li>
               </ul>
             </div>
             <div class="public-transport-step">
-              <h6>Step 2: Transfer in Tunis</h6>
+              <h6>Step 2: Transfer in Rio</h6>
               <ul>
-                <li><span>Route</span>: At the city center, transfer to bus line 20 towards Gammarth. Buses run every 20
-                  minutes.</li>
-                <li><span>Duration</span>: Approximately 30 minutes to Gammarth.</li>
-                <li><span>Cost</span>: Around 1 TND.</li>
-                <li><span>Cost</span>: Around 1.5 TND.</li>
-
+                <li><span>Route</span>: From Alvorada, take Metro Line 2 to Estácio, then walk 10 minutes to the venue.
+                </li>
+                <li><span>Duration</span>: Approximately 25 minutes to Maracanã area.</li>
+                <li><span>Cost</span>: Around R$ 4.60 for Metro.</li>
               </ul>
             </div>
           </div>
@@ -133,65 +128,63 @@
         <h4>🚶‍♂️Within Walking Distance (0-2 km)</h4>
         <div class="around-venue-grid">
           <div class="around-venue-item">
-            <h5>La Marsa Beach</h5>
-            <p>A beautiful beach perfect for a relaxing walk or swim.</p>
+            <h5>Maracanã Stadium</h5>
+            <p>The iconic football stadium, one of the most famous in the world.</p>
           </div>
           <div class="around-venue-item">
-            <h5>Carthage Ruins</h5>
-            <p>Explore the ancient ruins of Carthage, a UNESCO World Heritage site.</p>
+            <h5>Tijuca National Park</h5>
+            <p>Large urban national park with hiking trails and beautiful views.</p>
           </div>
           <div class="around-venue-item">
-            <h5>Sidi Bou Said</h5>
-            <p>A picturesque village known for its blue and white architecture and stunning views.</p>
-          </div>
-        </div>
-      </article>
-
-
-      <article class="around-venue">
-        <h4>🚶‍♂️Within Walking Distance (0-2 km)</h4>
-        <div class="around-venue-grid">
-          <div class="around-venue-item">
-            <h5>La Marsa Beach</h5>
-            <p>A beautiful beach perfect for a relaxing walk or swim.</p>
-          </div>
-          <div class="around-venue-item">
-            <h5>Carthage Ruins</h5>
-            <p>Explore the ancient ruins of Carthage, a UNESCO World Heritage site.</p>
-          </div>
-          <div class="around-venue-item">
-            <h5>Sidi Bou Said</h5>
-            <p>A picturesque village known for its blue and white architecture and stunning views.</p>
-          </div>
-          <div class="around-venue-item">
-            <h5>Sidi Bou Said</h5>
-            <p>A picturesque village known for its blue and white architecture and stunning views.</p>
-          </div>
-          <div class="around-venue-item">
-            <h5>Sidi Bou Said</h5>
-            <p>A picturesque village known for its blue and white architecture and stunning views.</p>
-          </div>
-          <div class="around-venue-item">
-            <h5>Sidi Bou Said</h5>
-            <p>A picturesque village known for its blue and white architecture and stunning views.</p>
+            <h5>Quinta da Boa Vista</h5>
+            <p>Historic park with museums and beautiful gardens for relaxation.</p>
           </div>
         </div>
       </article>
 
       <article class="around-venue">
-        <h4>🚶‍♂️Within Walking Distance (0-2 km)</h4>
+        <h4>🚗 Short Drive (2-10 km)</h4>
         <div class="around-venue-grid">
           <div class="around-venue-item">
-            <h5>La Marsa Beach</h5>
-            <p>A beautiful beach perfect for a relaxing walk or swim.</p>
+            <h5>Christ the Redeemer</h5>
+            <p>The famous statue atop Corcovado Mountain with panoramic city views.</p>
           </div>
           <div class="around-venue-item">
-            <h5>Carthage Ruins</h5>
-            <p>Explore the ancient ruins of Carthage, a UNESCO World Heritage site.</p>
+            <h5>Sugarloaf Mountain</h5>
+            <p>Cable car ride to the top for spectacular views of Rio de Janeiro.</p>
+          </div>
+          <div class="around-venue-item">
+            <h5>Copacabana Beach</h5>
+            <p>World-famous beach perfect for a relaxing walk or swim.</p>
+          </div>
+          <div class="around-venue-item">
+            <h5>Santa Teresa</h5>
+            <p>Charming neighborhood with art studios, cafes, and historic architecture.</p>
+          </div>
+          <div class="around-venue-item">
+            <h5>Lapa Arches</h5>
+            <p>Historic aqueduct and vibrant nightlife area with bars and live music.</p>
+          </div>
+          <div class="around-venue-item">
+            <h5>Downtown Rio</h5>
+            <p>Historic city center with museums, theaters, and business district.</p>
           </div>
         </div>
       </article>
 
+      <article class="around-venue">
+        <h4>🏖️ Beaches & Recreation</h4>
+        <div class="around-venue-grid">
+          <div class="around-venue-item">
+            <h5>Ipanema Beach</h5>
+            <p>Trendy beach known for its beautiful people and vibrant atmosphere.</p>
+          </div>
+          <div class="around-venue-item">
+            <h5>Botanical Garden</h5>
+            <p>Beautiful garden with rare plants and peaceful walking paths.</p>
+          </div>
+        </div>
+      </article>
     </section>
   </main>
 </template>

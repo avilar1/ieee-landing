@@ -71,7 +71,7 @@ const alternarSubmenuVenue = () => {
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
       <router-link to="/program">Program</router-link>
-      <router-link to="/venue">Contact</router-link>
+      <router-link to="/venue">Venue</router-link>
     </div>
   </footer>
 </template>

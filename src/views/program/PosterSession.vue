@@ -24,7 +24,7 @@
           <span class="card-ev-icon-span">📅</span>
 
           <h4>Deadline</h4>
-          <p>August 10, 2025</p>
+          <p>August 10,  2026</p>
         </div>
         <div class="card-ev">
 
