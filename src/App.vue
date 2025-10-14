@@ -61,17 +61,11 @@ const alternarSubmenuVenue = () => {
   <router-view />
 
   <footer>
-    <div>
-      <span>IEEE IES SYP Congress Brazil 2026</span>
+    <div class="footer-caixa">
       <span>Future Innovations, Solid Foundations</span>
+      <span>IEEE IES SYP Congress Brazil 2026</span>
       <span>All rights reserved.</span>
-      <span>Rio de Janeiro, Brazil • August 15-17, 2026</span>
-    </div>
-    <div>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/program">Program</router-link>
-      <router-link to="/venue">Venue</router-link>
+
     </div>
   </footer>
 </template>
@@ -227,45 +221,37 @@ nav .burguer {
 
 
 footer {
-  background:
-    url('../public/img/new-rio-fundo-desfocado-v3.svg') no-repeat center bottom / cover,
-    linear-gradient(90deg,
-      var(--color-blue-500-rgb) 50%,
-      var(--color-green-500-rgb) 75%,
-      var(--color-yellow-300-rgb) 100%);
-
+  background: url(/public/img/new-rio-fundo-desfocado-v5.svg) no-repeat center bottom / cover;
   background-blend-mode: multiply;
   /* opacity: 0.15; */
   color: var(--text-color);
   text-align: center;
   padding: 1rem 4rem 3rem;
+  min-height: 131px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 
 footer div span {
   width: fit-content;
-  margin: 0 auto;
+
 }
 
-footer div:nth-child(1) {
+.footer-caixa {
   display: flex;
-  flex-direction: column;
-
-  background: rgba(0, 0, 0, 0.1);
-  color: var(--text-white);
-  text-shadow: 0 2px 8px #0008;
-  border-radius: 12px;
-  padding: 1rem 2rem;
-}
-
-footer div:nth-child(2) {
-  display: flex;
+  flex-direction: row;
   justify-content: center;
-  gap: 1rem;
+  align-items: center;
+  gap: 5rem;
+  background-color: var(--color-blue-500-rgb-opacity-ex);
+  color: var(--text-white);
 }
 
-footer div:nth-child(2) a {
-  color: var(--text-white);
-  text-shadow: 0 2px 8px #0008;
-  font-weight: bold;
+@media (max-width: 600px) {
+  .footer-caixa {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 </style>
