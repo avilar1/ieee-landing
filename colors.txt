@@ -1,0 +1,13 @@
+Roadster Blue Valspar => #46819C => azul => 70 129 156
+
+Sauna Valspar => #B2C9C8 => azul secundário => 178 201 200
+
+Hubbell House Tamarisk => #BCC397 => verde => 188 195 151
+
+
+| Categoria       | Cores principais                |
+| --------------- | ------------------------------- |
+| **Primárias**   | #46819C, #6CA6B8            |
+| **Secundárias** | #B2C9C8, #BCC397, #8DAA91 |
+| **Neutros**     | #2B3A3F, #F4F6F6            |
+| **Acentos**     | #E6A16E                       |

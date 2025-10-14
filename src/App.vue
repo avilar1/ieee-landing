@@ -76,4 +76,196 @@ const alternarSubmenuVenue = () => {
   </footer>
 </template>
 
-<style scoped></style>
+<style scoped>
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1rem;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 14px;
+  align-items: center;
+  max-width: max-content;
+}
+
+nav ul li a,
+nav ul li span {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+ul li {
+  position: relative;
+}
+
+ul li ul {
+  display: none;
+  position: absolute;
+  /* left: 0; */
+  /* top: 100%; */
+  background: rgba(255, 255, 255);
+  z-index: 10;
+  width: max-content;
+  padding: 1rem;
+
+  border-radius: 0 0 8px 8px;
+}
+
+ul li>ul {
+  display: block;
+}
+
+.seta {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 0.8em;
+  transition: transform 0.3s;
+}
+
+.seta-aberta {
+  transform: rotate(180deg);
+}
+
+nav .btn {
+  line-height: 0.7rem;
+  padding: 0 0.5rem;
+  /* margin: 0px; */
+  margin-left: 1rem;
+  height: 2.4rem;
+}
+
+nav .btn span {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+nav .burguer {
+  display: none;
+  width: 32px;
+  height: 32px;
+  background: url('../assets/img/burger-menu-svgrepo-com.svg') no-repeat center center;
+  background-size: 24px 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 944px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+  }
+
+  nav .burguer {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    flex-direction: column;
+    gap: 0;
+    box-shadow: 0 4px 16px #0002;
+    z-index: 2000;
+    padding: 2rem 1rem;
+    opacity: 1;
+  }
+
+  nav ul.aberto {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+    text-align: start;
+  }
+
+  nav .btn {
+    margin-right: 1rem;
+  }
+
+  nav ul li ul {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    padding: 0.5rem;
+    height: auto;
+  }
+}
+
+
+footer {
+  background:
+    url('../assets/img/copacabana_green_op5.svg') no-repeat center bottom / cover,
+    linear-gradient(90deg,
+      rgba(141, 156, 198, 1) 0%,
+      rgba(167, 192, 182, 1) 50%,
+      rgba(183, 163, 145, 1) 100%);
+
+  background-blend-mode: multiply;
+  /* opacity: 0.15; */
+  color: var(--text-color);
+  text-align: center;
+  padding: 1rem 4rem 3rem;
+}
+
+footer div span {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+footer div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+
+  background: rgba(0, 0, 0, 0.1);
+  color: var(--text-white);
+  text-shadow: 0 2px 8px #0008;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+}
+
+footer div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer div:nth-child(2) a {
+  color: var(--text-white);
+  text-shadow: 0 2px 8px #0008;
+  font-weight: bold;
+}
+</style>
