@@ -88,6 +88,7 @@ nav {
   align-items: center;
   height: 1rem;
   background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(6px);
 }
 
 nav ul {
@@ -103,7 +104,7 @@ nav ul {
 nav ul li a,
 nav ul li span {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--color-gray-900);
   font-weight: 500;
   cursor: pointer;
 }
@@ -120,14 +121,12 @@ ul li {
 ul li ul {
   display: none;
   position: absolute;
-  /* left: 0; */
-  /* top: 100%; */
-  background: rgba(255, 255, 255);
+  background: var(--color-white);
   z-index: 10;
   width: max-content;
   padding: 1rem;
-
   border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 ul li>ul {
@@ -148,7 +147,6 @@ ul li>ul {
 nav .btn {
   line-height: 0.7rem;
   padding: 0 0.5rem;
-  /* margin: 0px; */
   margin-left: 1rem;
   height: 2.4rem;
 }
@@ -190,7 +188,7 @@ nav .burguer {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: #fff;
+    background: var(--color-white);
     flex-direction: column;
     gap: 0;
     box-shadow: 0 4px 16px #0002;
@@ -206,9 +204,8 @@ nav .burguer {
 
   nav ul li {
     width: 100%;
-    text-align: center;
-    margin: 1rem 0;
     text-align: start;
+    margin: 1rem 0;
   }
 
   nav .btn {
@@ -225,18 +222,15 @@ nav .burguer {
   }
 }
 
-
 footer {
   background:
-    url('../assets/img/copacabana_green_op5.svg') no-repeat center bottom / cover,
+    url('./assets/img/copacabana_green_op5.svg') no-repeat center bottom / cover,
     linear-gradient(90deg,
-      rgba(141, 156, 198, 1) 0%,
-      rgba(167, 192, 182, 1) 50%,
-      rgba(183, 163, 145, 1) 100%);
-
+      var(--color-blue-300) 0%,
+      var(--color-green-200) 50%,
+      var(--color-accent-100) 100%);
   background-blend-mode: multiply;
-  /* opacity: 0.15; */
-  color: var(--text-color);
+  color: var(--text-white);
   text-align: center;
   padding: 1rem 4rem 3rem;
 }
@@ -249,8 +243,7 @@ footer div span {
 footer div:nth-child(1) {
   display: flex;
   flex-direction: column;
-
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.15);
   color: var(--text-white);
   text-shadow: 0 2px 8px #0008;
   border-radius: 12px;

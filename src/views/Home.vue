@@ -295,10 +295,9 @@ import TeamCarousel from '../components/Carrossel.vue'
 /*HOME  v*/
 .aa-01 {
   max-width: none;
-  background: #000000;
   background: linear-gradient(0deg,
       rgba(0, 0, 0, 0) 0%,
-      rgba(225, 255, 0, 0.09) 50%,
+      var(--color-accent-50) 50%,
       rgba(0, 0, 0, 0) 100%);
 }
 
@@ -319,17 +318,14 @@ import TeamCarousel from '../components/Carrossel.vue'
 }
 
 .logos-organizers li {
-  background: #fff;
+  background: var(--color-white);
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   padding: 2rem 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 0;
   min-height: 160px;
-  max-width: 100%;
-  box-sizing: border-box;
   overflow: hidden;
   transition: box-shadow 0.2s;
 }
@@ -340,18 +336,16 @@ import TeamCarousel from '../components/Carrossel.vue'
 
 .logos-organizers li img {
   max-width: 180px;
-  min-width: 100%;
   height: auto;
   object-fit: contain;
-  display: block;
 }
 
 .detalhes-evento {
   padding-top: 1rem;
   background-image: linear-gradient(to right bottom,
-      oklch(0.987 0.026 102.212) 0%,
-      oklch(0.982 0.018 155.826) 50%,
-      oklch(0.97 0.014 254.604) 100%);
+      var(--color-green-50) 0%,
+      var(--color-green-200) 50%,
+      var(--color-blue-100) 100%);
   padding-bottom: 4rem;
 }
 
@@ -388,7 +382,6 @@ import TeamCarousel from '../components/Carrossel.vue'
 .detalhes-tags {
   border-radius: 9999px;
   padding: 0.5rem 1rem;
-  display: block;
   font-weight: 500;
   font-size: 18px;
 }
@@ -399,8 +392,8 @@ import TeamCarousel from '../components/Carrossel.vue'
 }
 
 .detalhes-tags.dt2 {
-  background-color: var(--color-yellow-100);
-  color: var(--color-yellow-700);
+  background-color: var(--color-accent-50);
+  color: var(--color-accent-700);
 }
 
 .detalhes-tags.dt3 {
@@ -409,11 +402,9 @@ import TeamCarousel from '../components/Carrossel.vue'
 }
 
 .detalhes-final-container {
-  margin: 4rem auto 4rem;
+  margin: 4rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-self: center;
-  justify-content: center;
   max-width: 1200px;
   gap: 2rem;
 }
@@ -428,12 +419,11 @@ import TeamCarousel from '../components/Carrossel.vue'
 
 .detalhes-final-container article:nth-child(2) {
   background-image: linear-gradient(to right bottom,
-      oklch(0.962 0.044 156.743) 0%,
-      oklch(0.973 0.071 103.193) 50%,
-      oklch(0.932 0.032 255.585) 100%);
+      var(--color-green-100) 0%,
+      var(--color-green-300) 50%,
+      var(--color-blue-100) 100%);
   padding: 2rem;
   border-radius: 12px;
-
   box-shadow:
     rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -472,11 +462,6 @@ import TeamCarousel from '../components/Carrossel.vue'
   font-size: 14px;
 }
 
-.detalhes-final-container ul li::before {
-  content: '';
-  margin-left: -0.7em;
-}
-
 .detalhes-final-container li::marker {
   font-weight: bold;
   font-size: 24px;
@@ -487,7 +472,7 @@ import TeamCarousel from '../components/Carrossel.vue'
 }
 
 .detalhes-final-container li:nth-child(2)::marker {
-  color: var(--color-yellow-500);
+  color: var(--color-accent-500);
 }
 
 .detalhes-final-container li:nth-child(3)::marker {
@@ -512,8 +497,7 @@ import TeamCarousel from '../components/Carrossel.vue'
 .keynote-speakers {
   background-image: linear-gradient(to right bottom,
       var(--color-green-50) 0%,
-      var(--color-yellow-50) 100%);
-
+      var(--color-accent-50) 100%);
   padding: 4rem 2rem;
 }
 
