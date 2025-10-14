@@ -119,7 +119,7 @@ const scrollNext = () => {
 .carousel-btn {
   padding: 3px 15px;
   border-radius: 50%;
-  background: #16a34a;
+  background: var(--color-green-300);
   color: #fff;
   border: none;
   font-size: 2rem;
@@ -129,7 +129,7 @@ const scrollNext = () => {
 }
 
 .carousel-btn:hover {
-  background: #15803d;
+  background: var(--color-green-500);
 }
 
 .carousel-btn-prev {
@@ -181,26 +181,26 @@ const scrollNext = () => {
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 4px;
-  color: #333;
+  color: var(--text-color);
 }
 
 .member-role {
   font-size: 0.9rem;
-  color: #555;
+  color: var(--color-gray-600);
   margin-bottom: 2px;
   font-weight: 600;
 }
 
 .member-affiliation {
   font-size: 0.85rem;
-  color: #888;
+  color: var(--color-gray-500);
   margin-bottom: 8px;
   text-align: center;
 }
 
 .member-bio {
   font-size: 0.8rem;
-  color: #666;
+  color: var(--color-gray-400);
   margin-bottom: 8px;
   text-align: center;
   flex-grow: 1;
@@ -213,7 +213,7 @@ const scrollNext = () => {
 }
 
 .member-link {
-  color: #16a34a;
+  color: var(--color-blue-500);
   transition: color 0.2s;
 }
 

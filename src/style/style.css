@@ -4,9 +4,12 @@
     /* svg */
       linear-gradient(
         90deg,
-        rgba(141, 156, 198, 1) 0%,
+        /* rgba(141, 156, 198, 1) 0%,
         rgba(167, 192, 182, 1) 50%,
-        rgba(183, 163, 145, 1) 100%
+        rgba(183, 163, 145, 1) 100% */
+          var(--color-blue-100-rgb) 0%,
+        var(--color-blue-100-rgb) 50%,
+        var(--color-green-500-rgb) 100%
       );
   text-align: center;
   padding: 4rem 2rem;
@@ -46,13 +49,13 @@ h1,
 }
 
 .sub-titulo {
-  color: var(--color-yellow-300);
+  color: var(--color-blue-500);
   font-weight: bold;
   font-size: 24px;
 }
 
 .subs-var {
-  color: var(--color-green-300);
+  color: var(--color-yellow-900);
   font-size: 18px;
 }
 
@@ -96,7 +99,7 @@ h1,
 }
 
 .btn-v {
-  background-color: var(--color-green-500);
+  background-color: var(--color-blue-500);
   color: var(--text-white);
 }
 
@@ -198,8 +201,8 @@ h2 {
 
   background-image: linear-gradient(
     to right bottom,
-    oklch(0.962 0.044 156.743) 0%,
-    oklch(0.973 0.071 103.193) 100%
+    var(--color-blue-100-rgb) 100%,
+    var(--color-green-500-rgb) 0%
   );
 
   border-radius: 12px;
@@ -249,8 +252,8 @@ h2 {
 .decor-ies.diIEEE {
   background-image: linear-gradient(
     to right bottom,
-    oklch(0.932 0.032 255.585) 0%,
-    oklch(0.962 0.044 156.743) 100%
+    var(--color-blue-100-rgb) 0%,
+    var(--color-blue-500-rgb) 100%
   );
 }
 
@@ -278,7 +281,7 @@ h2 {
 }
 
 .card-ev {
-  background: #fff;
+  background: var(--color-white);
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   padding: 2rem;
@@ -302,8 +305,8 @@ h2 {
   height: 32px;
   background-image: linear-gradient(
     to right bottom,
-    oklch(0.723 0.219 149.579) 0%,
-    oklch(0.623 0.214 259.815) 100%
+    var(--color-blue-500-rgb) 0%,
+    var(--color-green-500-rgb) 100%
   );
   border-radius: 50%;
   padding: 1rem;
@@ -349,7 +352,6 @@ h2 {
 .titulos.t-g {
   color: var(--color-green-700);
 }
-
 
 .program-header {
   padding: 2rem;
@@ -438,4 +440,3 @@ h2 {
   font-size: 48px;
   font-weight: 700;
 }
-

@@ -228,11 +228,11 @@ nav .burguer {
 
 footer {
   background:
-    url('../assets/img/copacabana_green_op5.svg') no-repeat center bottom / cover,
+    url('../public/img/new-rio-fundo-desfocado-v3.svg') no-repeat center bottom / cover,
     linear-gradient(90deg,
-      rgba(141, 156, 198, 1) 0%,
-      rgba(167, 192, 182, 1) 50%,
-      rgba(183, 163, 145, 1) 100%);
+      var(--color-blue-500-rgb) 50%,
+      var(--color-green-500-rgb) 75%,
+      var(--color-yellow-300-rgb) 100%);
 
   background-blend-mode: multiply;
   /* opacity: 0.15; */
